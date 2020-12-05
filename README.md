@@ -1,2 +1,607 @@
-# dataset
-A list of public datasets
+# 医学影像数据集集锦
+# 前言
+本项目的目标是整理一个医学影像方向数据集的列表，提供每个数据集的基本信息并在其License允许的条件下提供**不限速下载**。项目按照数据集关注的器官对其进行分类和排序，因为数据集的数量庞大，我们十分期待大佬们以PR或Issue的形式对项目**作出贡献**。如果你想找的数据集没有出现在列表中，或者发现项目已有的内容有任何错误（包括但不限于网址失效，数据错误，简介信息补充等），可以按照模板提交Issue或直接进行PR。
+
+当前共收录 20 个方向的 63 个数据集
+
+# 肝脏
+
+## LiTS
+| 名称          | 标注内容      | 类型 | 模态 | 数量   | 标签格式 | 文件格式 |
+| ------------ | ------------- | ---- | ---- | ------ | -------- | -------- |
+| [LiTS](https://competitions.codalab.org/competitions/17094) | 肝脏/肝脏肿瘤 | 分割 | CT   | 130+70 | 0/1标签  | nii      |
+
+LiTS数据集包含130组训练数据和70组测试数据，其中70组测试数据是没有标签的。LiTS训练集中包含3DIRCADB中的所有数据，所以如果合并多个数据集不要合并这两个。
+
+分割结果可以在线提交进行评估，[在线提交方法参考](https://github.com/PatrickChrist/LITS-CHALLENGE)。 [在线提交地址](https://competitions.codalab.org/competitions/17094)
+
+数据集论文：[The Liver Tumor Segmentation Benchmark (LiTS)](https://arxiv.org/abs/1901.04056)
+
+相关项目： [基于Paddle的肝脏CT影像分割](https://aistudio.baidu.com/aistudio/projectdetail/250994)
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/10273)
+
+| 名称                                              | 标注内容 | 类型 | 模态 | 数量  | 标签格式 | 文件格式  |
+| ------------------------------------------------- | -------- | ---- | ---- | ----- | -------- | --------- |
+| [Sliver07](https://sliver07.grand-challenge.org/) | 肝脏     | 分割 | CT   | 20+10 | 0/1标签  | MetaImage |
+
+![liver.png](https://i.loli.net/2020/11/21/iuOqFTteKUlnNVZ.png)
+
+这个数据集比较老了，现在用的也比较少，一些研究会将sliver和lits合起来，这样基本上就是所有常用的关于肝脏分割的公开数据了。mhd格式可以用 SimpleITK 读，在medseg项目中有[转换成nii的脚本](https://github.com/linhandev/medSeg/blob/master/tool/train/mhd2nii.py)
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/19906)
+
+| 名称                                                         | 标注内容    | 类型 | 模态 | 数量 | 标签格式     | 文件格式 |
+| ------------------------------------------------------------ | ----------- | ---- | ---- | ---- | ------------ | -------- |
+| 3D-IRCADb [01](https://www.ircad.fr/research/3d-ircadb-01/) [02](https://www.ircad.fr/research/3d-ircadb-01/) | 肝脏/肝肿瘤 | 分割 | CT   | 20+2 | surface mesh | dcm      |
+
+3D-IRCADb是比较早的一个数据集，有两个子集，分别包含20组和2组CT片子。
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/10293)
+
+| 名称                                        | 标注内容 | 类型 | 模态   | 数量        | 标签格式 | 文件格式 |
+| ------------------------------------------- | -------- | ---- | ------ | ----------- | -------- | -------- |
+| [CHAOS](https://chaos.grand-challenge.org/) | 肝/肾/脾 | 分割 | CT+MRI | 40CT+120MRI | 0/1标签  | dcm      |
+
+CHAOS是一个多脏器，多模态分割数据集。
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/23864
+)
+
+| 名称                                                         | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ------------------------------------------------------------ | -------- | ---- | ---- | ---- | -------- | -------- |
+| [TCGA-LIHC](https://wiki.cancerimagingarchive.net/display/Public/TCGA-LIHC) | 肝       |      | CT   | 1688 | 无标签   |          |
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/37439
+)
+
+| 名称                                            | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ----------------------------------------------- | -------- | ---- | ---- | ---- | -------- | -------- |
+| [MSD肝脏血管分割](http://medicaldecathlon.com/) |          |      |      |      |          |          |
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/10333
+)
+
+# 肺
+## MSD肺脏分割
+| 名称                                        | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式  |
+| ------------------------------------------- | -------- | ---- | ---- | ---- | -------- | --------- |
+| [MSD肺脏分割](http://medicaldecathlon.com/) | 肺脏     | 分割 | CT   | 55   | r        | MetaImage |
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/10334
+)
+
+| 名称                                          | 标注内容    | 类型 | 模态 | 数量 | 标签格式 | 文件格式  |
+| --------------------------------------------- | ----------- | ---- | ---- | ---- | -------- | --------- |
+| [LoLa11](https://lola11.grand-challenge.org/) | 左右肺/肺页 | 分割 | CT   |      | 0/1标签  | Metaimage |
+
+55组扫描的肺页分割，包含左右肺，左上，左下，右上，右中，右下肺页的标注。
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/30417
+)
+
+| 名称                                               | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| -------------------------------------------------- | -------- | ---- | ---- | ---- | -------- | -------- |
+| [StructSeg2019](structseg2019.grand-challenge.org) |          |      |      |      |          |          |
+
+[Aistudio下载](
+)
+
+| 名称                                                         | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ------------------------------------------------------------ | -------- | ---- | ---- | ---- | -------- | -------- |
+| [肺部多病智能诊断](https://tianchi.aliyun.com/competition/entrance/231724/) |          |      | CT   |      |          |          |
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/34323
+)
+
+| 名称                                                  | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ----------------------------------------------------- | -------- | ---- | ---- | ---- | -------- | -------- |
+| [Chestxray14](https://www.kaggle.com/nih-chest-xrays) |          |      |      |      |          |          |
+
+[Aistudio下载](
+)
+
+| 名称                                                         | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ------------------------------------------------------------ | -------- | ---- | ---- | ---- | -------- | -------- |
+| [CheXpert](https://stanfordmlgroup.github.io/competitions/chexpert/) |          |      |      |      |          |          |
+
+  介绍论文： [CheXpert: A Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison](https://arxiv.org/abs/1901.07031)
+
+[Aistudio下载](
+)
+
+| 名称                                                         | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ------------------------------------------------------------ | -------- | ---- | ---- | ---- | -------- | -------- |
+| [NIHChest Xray](https://www.kaggle.com/nih-chest-xrays/data) |          |      |      |      |          |          |
+
+  介绍论文： [ChestX-ray8: Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases](http://openaccess.thecvf.com/content_cvpr_2017/papers/Wang_ChestX-ray8_Hospital-Scale_Chest_CVPR_2017_paper.pdf)
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/35660
+)
+
+| 名称                                                         | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ------------------------------------------------------------ | -------- | ---- | ---- | ---- | -------- | -------- |
+| [QIN Lung CT](https://wiki.cancerimagingarchive.net/display/Public/QIN+LUNG+CT) |          |      | CT   |      |          |          |
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/35205
+)
+
+| 名称                                                         | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ------------------------------------------------------------ | -------- | ---- | ---- | ---- | -------- | -------- |
+| [4D-Lung](https://wiki.cancerimagingarchive.net/display/Public/4D-Lung) |          |      |      |      |          |          |
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/37482
+)
+
+| 名称                                        | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ------------------------------------------- | -------- | ---- | ---- | ---- | -------- | -------- |
+| [MSD肺脏分割](http://medicaldecathlon.com/) |          |      |      |      |          |          |
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/10334
+)
+
+## 肺结核
+
+| 名称                                                         | 标注内容    | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ------------------------------------------------------------ | ----------- | ---- | ---- | ---- | -------- | -------- |
+| [Shenzhen Hospital X-ray Set](https://lhncbc.nlm.nih.gov/publication/pub9931) | 肺结核/正常 | 分类 | CXR  | 662  | 类别     | 图片     |
+
+深圳第三医院收集的肺结核胸透数据集，包含326张正常扫描和336张不正常的扫描。
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/25237
+)
+
+| 名称                                                         | 标注内容    | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ------------------------------------------------------------ | ----------- | ---- | ---- | ---- | -------- | -------- |
+| [Montgomery County X-ray Set](https://lhncbc.nlm.nih.gov/publication/pub9931) | 肺结核/正常 | 分类 | CXR  | 138  | 类别     | 图片     |
+
+蒙哥马利市收集的肺结核胸透数据集，包含80张正常的扫描和58张不正常的扫描。
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/34229
+)
+
+## 肺炎
+### Ieee8023
+
+| 名称                                                         | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ------------------------------------------------------------ | -------- | ---- | ---- | ---- | -------- | -------- |
+| [Ieee8023](https://github.com/ieee8023/covid-chestxray-dataset) | 肺脏     | 分类 | CT   | 20   |      | nii      |
+
+持续搜集公开的新冠CT扫描，目前有20个病例。
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/34221
+)
+
+### covid19-ct-scans
+
+| 名称                                                         | 标注内容        | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ------------------------------------------------------------ | --------------- | ---- | ---- | ---- | -------- | -------- |
+| [covid19-ct-scans](https://www.kaggle.com/andrewmvd/covid19-ct-scans) | 左右肺/新冠感染 | 分割 | CT   | 20   |          | nii      |
+
+数据来自Ieee8023，对20组扫描进行了左右肺和感染区的标注。基于这个数据集和另外几个数据集，大佬们做了一个新冠分割的[benchmark](https://gitee.com/junma11/COVID-19-CT-Seg-Benchmark)
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/34221
+)
+
+### COVID-CT
+
+| 名称                                              | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ------------------------------------------------- | -------- | ---- | ---- | ---- | -------- | -------- |
+| [COVID-CT](https://github.com/UCSD-AI4H/COVID-CT) |          | 分类 | CT   | 349  |          | 图片     |
+
+包含216名新冠患者的349张胸部CT图片，从相关paper中收集。
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/27732)
+
+### Figure1-COVID-chestxray-dataset
+
+| 名称                                                         | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ------------------------------------------------------------ | -------- | ---- | ---- | ---- | -------- | -------- |
+| [Figure1-COVID-chestxray-dataset](https://github.com/agchung/Figure1-COVID-chestxray-dataset) |          | 分类 | CXR  | 48   |          | 图片     |
+
+DarwinAI收集的一些新冠CT的图片，是CovidX数据集的一部分。持续更新，使用前可以先pull。
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/34208)
+
+### RSNA肺炎检测
+
+| 名称           | 标注内容            | 类型      | 模态 | 数量       | 标签格式 | 文件格式 |
+| ------- | ------------------- | --------- | ---- | ---------- | -------- | -------- |
+| [RSNA肺炎检测](https://www.kaggle.com/c/rsna-pneumonia-detection-challenge/) | 之否肺炎/肺炎区域BB | 分类/检测 | CXR  | 26684+3000 |          | 图片     |
+
+RSNA是北美放射学会在Kaggle上组织的一个比赛数据集，数据来自[NIH](https://nihcc.app.box.com/v/ChestXray-NIHCC)。包含26684张训练数据，有图片的分类和肺炎区域的边界框。
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/34214)
+
+### CovidX
+
+| 名称     | 标注内容           | 类型 | 模态 | 数量      | 标签格式 | 文件格式 |
+| -------------------- | ------------------ | ---- | ---- | --------- | -------- | -------- |
+| [CovidX](https://github.com/lindawangg/COVID-Net/blob/master/docs/COVIDx.md) | 新冠/其他肺炎/正常 | 分类 | CT   | 13569+231 |          | 图片     |
+
+CovidX数据集是DarwinAI训练[CovidNet](https://github.com/lindawangg/COVID-Net)做的一个数据集，本身没有新的数据，是Ieee8023，Figure1和RSNA组合成的一个数据集。
+[Aistudio下载]()
+
+### Flyai Covid
+
+| 名称                                               | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ------------------------- | -------- | ---- | ---- | ---- | -------- | -------- |
+| [Flyai Covid](https://www.flyai.com/d/ChestXray02) |          |      |      |      |          |          |
+
+Flyai举办的一个新冠分类比赛。
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/34230)
+
+### covid19-radiography-database
+
+| 名称                                                         | 标注内容           | 类型 | 模态 | 数量          | 标签格式 | 文件格式 |
+| ----------- | ------------------ | ---- | ---- | ------------- | -------- | -------- |
+| [covid19-radiography-database](https://www.kaggle.com/tawsifurrahman/covid19-radiography-database) | 新冠/其他肺炎/正常 | 分类 | CT   | 219+1314+1345 |          | 图片     |
+
+跟CovidX一样是一个组合数据集，数据来自论文图片和RSNA。
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/34241)
+
+### COVID-19-AR
+
+| 名称 | 标注内容 | 类型 | 模态 | 数量  | 标签格式 | 文件格式 |
+| ----- | ----- | ---- | ---- | ------------- | -------- | -------- |
+| [COVID-19-AR](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=70226443) | |  |    |  | | dcm|
+
+Chest Imaging with Clinical and Genomic Correlates Representing a Rural COVID-19 Positive Population (COVID-19-AR)
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/63553)
+[TODO]
+
+### CT Images in COVID-19
+
+| 名称 | 标注内容 | 类型 | 模态 | 数量  | 标签格式 | 文件格式 |
+| ----- | ----- | ---- | ---- | ------------- | -------- | -------- |
+| [CT Images in COVID-19](https://wiki.cancerimagingarchive.net/display/Public/CT+Images+in+COVID-19) | |  |    |  | | nii|
+
+
+## 肺结节
+
+| 名称                                                         | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ---------------------- | -------- | ---- | ---- | ---- | -------- | -------- |
+| [LIDC/IDIR](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI) |          |      |      |      |  |  |
+
+  介绍论文： [The Lung Image Database Consortium (LIDC) and Image Database Resource Initiative (IDRI): A Completed Reference Database of Lung Nodules on CT Scans](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3041807/)[The public cancer radiology imaging collections of The Cancer Imaging Archive](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3041807/)
+
+[Aistudio下载]()
+
+| 名称                                         | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| -------------------------------------------- | -------- | ---- | ---- | ---- | -------- | -------- |
+| [LUNA16](https://luna16.grand-challenge.org) |          |      |      |      |          |          |
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/1860
+)
+
+| 名称                                                         | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ------------------------------------------------------------ | -------- | ---- | ---- | ---- | -------- | -------- |
+| [天池肺部结节](https://tianchi.aliyun.com/competition/entrance/231601/introduction) |          |      |      |      |          |          |
+
+ [训练集](https://aistudio.baidu.com/aistudio/datasetDetail/20000) [测试集](https://aistudio.baidu.com/aistudio/datasetdetail/10063)
+
+
+| 名称                                     | 标注内容                                              | 类型      | 模态 | 数量 | 标签格式 | 文件格式  |
+| ---------------------------------------- | ----------------------------------------------------- | --------- | ---- | ---- | -------- | --------- |
+| [LNDB](https://lndb.grand-challenge.org) | 直径大于3mm的肿瘤分割标注/小于3mm肿瘤和非肿瘤标记中心 | 分割/分类 | CT   | 294  | XML      | MetaImage |
+
+  介绍论文： [LNDb: A Lung Nodule Database on Computed Tomography](https://arxiv.org/abs/1911.08434)
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/23909
+)
+
+| 名称                                                         | 标注内容     | 类型 | 模态 | 数量      | 标签格式 | 文件格式 |
+| ------------------------------------------------------------ | ------------ | ---- | ---- | --------- | -------- | -------- |
+| [Lung Nodule Malignancy](https://www.kaggle.com/kmader/lungnodemalignancy) | 肺结界良恶性 | 分类 | CT   | 4165+2526 |          | tif      |
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/28474
+)
+
+| 名称                                                         | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ------------------------------------------------------------ | -------- | ---- | ---- | ---- | -------- | -------- |
+| [Data Science Bowl 17](https://www.kaggle.com/c/data-science-bowl-2017) |          |      |      |      |          |          |
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/25423
+)
+
+## 气胸
+
+| 名称      | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| - | - | - | - | - | - | - |
+| ["SIIM-ACR Pneumothorax Segmentation]() |   |   |    |   |   |  |
+
+# 乳腺癌
+
+| 名称                                                         | 标注内容       | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ------------------------------------------------------------ | -------------- | ---- | ---- | ---- | -------- | -------- |
+| [CBIS-DDSM](https://wiki.cancerimagingarchive.net/display/Public/CBIS-DDSM) | 正常/良性/恶性 | 分类 | CT   | 2620 |          |          |
+
+  介绍论文： [Deep Learning to Improve Breast Cancer Early Detection on Screening Mammography](https://arxiv.org/abs/1708.09427) [A curated mammography data set for use in computer-aided detection and diagnosis research](https://www.nature.com/articles/sdata2017177)
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/37567
+)
+
+| 名称                                                         | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ------------------------------------------------------------ | -------- | ---- | ---- | ---- | -------- | -------- |
+| QIN Breast [01](https://wiki.cancerimagingarchive.net/display/Public/QIN-Breast)[02](https://wiki.cancerimagingarchive.net/display/Public/QIN-BREAST-02) |          |      | MRI  | 67   |          |          |
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/37536
+)
+
+| 名称      | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| - | - | - | - | - | - | - |
+| [Rider Breast MRI](https://wiki.cancerimagingarchive.net/display/Public/RIDER+Breast+MRI) |   |   | MRI   | "
+  |   |  |
+
+| 名称                                                         | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ------------------------------------------------------------ | -------- | ---- | ---- | ---- | -------- | -------- |
+| [ACRIN 6688](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=30671268) |          |      | CT   | 83   |          |          |
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/37565
+)
+
+# 脑
+
+| 名称                                                | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| --------------------------------------------------- | -------- | ---- | ---- | ---- | -------- | -------- |
+| [BraTS2015](http://www.braintumorsegmentation.org/) |          |      |      |      |          |          |
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/26367
+)
+
+| 名称                                     | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ---------------------------------------- | -------- | ---- | ---- | ---- | -------- | -------- |
+| [Iseg2019](http://iseg2019.web.unc.edu/) |          |      |      |      |          |          |
+
+[Aistudio下载](
+)
+
+| 名称                                                     | 标注内容     | 类型 | 模态 | 数量    | 标签格式 | 文件格式 |
+| -------------------------------------------------------- | ------------ | ---- | ---- | ------- | -------- | -------- |
+| [ABIDE](http://fcon_1000.projects.nitrc.org/indi/abide/) | 是否有自闭症 | 分类 | MRI  | 539+573 |          |          |
+
+自闭症患者的头部MRI扫描，包含539例自闭症患者和573个正常扫描对照组。  介绍论文： [The autism brain imaging data exchange: towards a large-scale evaluation of the intrinsic brain architecture in autism.](https://www.ncbi.nlm.nih.gov/pubmed/23774715)
+
+ [下载地址](http://preprocessed-connectomes-project.org/abide/download.html)
+
+
+| 名称                                                       | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ---------------------------------------------------------- | -------- | ---- | ---- | ---- | -------- | -------- |
+| [ADNI](http://adni.loni.usc.edu/data-samples/access-data/) |          |      |      |      |          |          |
+
+  介绍论文： [Alzheimer's Disease Neuroimaging Initiative (ADNI)](https://n.neurology.org/content/74/3/201.short)
+
+[Aistudio下载](
+)
+
+| 名称              | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ----------------- | -------- | ---- | ---- | ---- | -------- | -------- |
+| [MSD海马体分割]() |          |      |      |      |          |          |
+
+
+
+## 脑出血
+
+| 名称                                                         | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ------------------------------------------------------------ | -------- | ---- | ---- | ---- | -------- | -------- |
+| [RSNA Intracranial Hemorrhage Detection](https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection) |          |      | CT   |      |          |          |
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/35741
+)
+
+# 肾脏
+
+| 名称                                          | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| --------------------------------------------- | -------- | ---- | ---- | ---- | -------- | -------- |
+| [Kits19](https://kits19.grand-challenge.org/) | 肾肿瘤   | 分割 | CT   | 300  | 0/1      | nii      |
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/24582
+)
+
+# 肠
+
+| 名称                                                         | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ------------------------------------------------------------ | -------- | ---- | ---- | ---- | -------- | -------- |
+| [CT COLONOGRAPHY](https://wiki.cancerimagingarchive.net/display/Public/CT+COLONOGRAPHY#dc149b9170f54aa29e88f1119e25ba3e) |          |      | CT   |      |          |          |
+
+包含没有结肠息肉，有6-9mm息肉和大于10mm息肉的数据。
+[Aistudio下载](
+)
+
+| 名称                                              | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ------------------------------------------------- | -------- | ---- | ---- | ---- | -------- | -------- |
+| [MSD肠道分割数据集](http://medicaldecathlon.com/) |          |      |      |      |          |          |
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/10332
+)
+
+# 心脏
+
+| 名称                                                    | 标注内容 | 类型 | 模态 | 数量  | 标签格式 | 文件格式 |
+| ------------------------------------------------------- | -------- | ---- | ---- | ----- | -------- | -------- |
+| [EchoNet](https://echonet.github.io/dynamic/index.html) | 心脏     | 分割 | MRI  | 10300 | 0/1      |          |
+
+  介绍论文： [EchoNet-Dynamic: a Large New Cardiac Motion Video Data Resource for Medical Machine Learning](https://echonet.github.io/dynamic/NeuroIPS_2019_ML4H%20Workshop_Paper.pdf)
+
+[Aistudio下载](
+)
+
+| 名称      | 标注内容 | 类型 | 模态     | 数量        | 标签格式 | 文件格式 |
+| --------- | -------- | ---- | -------- | ----------- | -------- | -------- |
+| [MMWHS]() | 心脏     | 分割 | CT / MRI | 20CT、20MRI | 类别     | nii      |
+
+mmwhs是心脏分割数据集，共有8类，MRI和CT两种模态  相关项目： [Hybrid Loss Guided Convolutional Networks for Whole Heart Parsing](https://github.com/xy0806/miccai17-mmwhs-hybrid)
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/38799
+)
+
+| 名称                                        | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ------------------------------------------- | -------- | ---- | ---- | ---- | -------- | -------- |
+| [MSD心脏分割](http://medicaldecathlon.com/) |          |      |      |      |          |          |
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/23911
+)
+
+# 眼睛
+
+| 名称                                        | 标注内容 | 类型 | 模态     | 数量 | 标签格式 | 文件格式 |
+| ------------------------------------------- | -------- | ---- | -------- | ---- | -------- | -------- |
+| [DRIVE](https://drive.grand-challenge.org/) | 眼底血管 | 分割 | 眼底照片 | 40   | 0/1      | 图片     |
+
+DRIVE数据集是一个糖尿病病人眼底血管分割数据集。
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/27737
+)
+
+| 名称                                             | 标注内容      | 类型 | 模态         | 数量 | 标签格式 | 文件格式 |
+| ------------------------------------------------ | ------------- | ---- | ------------ | ---- | -------- | -------- |
+| [ODIR-5k](https://odir2019.grand-challenge.org/) | 正常和7种疾病 | 分类 | 眼底彩色照片 | 5000 |          | 图片     |
+
+ODIR-5K包括5  相关项目： 000名患者的年龄，双眼的彩色眼底照片和医生的诊断关键词。该数据集是上工医疗技术有限公司从中国不同医院/医疗中心收集的“真实”患者信息。在这些机构中，眼底图像由市场上的各种相机捕获，例如Canon，Zeiss和Kowa，因此导致各种各样的图像分辨率。病人的识别信息会被移除。注释由经过培训的人类读者进行标记，并具有质量控制管理。患者分为8个标签，包括正常（N），糖尿病（D），青光眼（G），白内障（C），AMD（A），高血压（H），近视（M）和其他疾病/异常（O）。"
+
+| 名称                                                      | 标注内容 | 类型 | 模态       | 数量 | 标签格式 | 文件格式 |
+| --------------------------------------------------------- | -------- | ---- | ---------- | ---- | -------- | -------- |
+| [FIRE 视网膜图像数据](http://www.ics.forth.gr/cvrl/fire/) |          | 分类 | 视网膜图像 | 129  |          |          |
+
+FIRE 是一个视网膜眼底图像数据集，包含 129张 眼底视网膜图像，由不同特征组合成 134对 图像组合。这些图像组合根据特质被划分为3类。眼底图像由 Nidek AFC-210 眼底照相机采集，分辨率为2912x2912，视觉仰角为40度。图像由 Papageorgiou Hospital 医院和Aristotle University of Thessaloniki大学共同构建，由于Thessaloniki 大学采集自39名患者。. 数据包括以下几部分内容：  1.成对的视网膜图像。 2.彩色ROI掩模（作为二值图像）。 3.特征ROI掩模（作为二值图像）。 4.每个图像对应的标注点。
+
+# 细胞
+
+| 名称                                                         | 标注内容 | 类型 | 模态 | 数量                | 标签格式 | 文件格式 |
+| ------------------------------------------------------------ | -------- | ---- | ---- | ------------------- | -------- | -------- |
+| [Data Science Bowl 18](https://www.kaggle.com/c/data-science-bowl-2018) | 细胞核   | 分割 |      | 841张/37333个细胞核 | 0/1      | 图片     |
+
+细胞核分割数据集  介绍论文： [Nucleus segmentation across imaging experiments: the 2018 Data Science Bowl](https://www.ncbi.nlm.nih.gov/pubmed/31636459)
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/10292
+)
+
+| 名称                                                         | 标注内容       | 类型 | 模态 | 数量  | 标签格式 | 文件格式 |
+| ------------------------------------------------------------ | -------------- | ---- | ---- | ----- | -------- | -------- |
+| [血细胞涂片分类](https://www.kaggle.com/paultimothymooney/blood-cells) | 四种血细胞类型 | 分类 | 镜检 | 12500 | -        | 图片     |
+
+血细胞分类数据集包含12500张四种血细胞的照片。图片是从大的血细胞涂片照片上截下来的，数据集经过增广。图片都很小，训练时注意IO瓶颈。
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/10278
+)
+
+| 名称                                              | 标注内容         | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ------------------------------------------------- | ---------------- | ---- | ---- | ---- | -------- | -------- |
+| [ISBI细胞跟踪](http://celltrackingchallenge.net/) | 细胞像素级别位置 | 跟踪 | 镜检 |      |          | 图片     |
+
+在镜检视频中像素级跟踪细胞位置
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/36460
+)
+
+# 骨骼
+
+| 名称                                                         | 标注内容    | 类型 | 模态  | 数量  | 标签格式 | 文件格式 |
+| ------------------------------------------------------------ | ----------- | ---- | ----- | ----- | -------- | -------- |
+| [MURA-1.1](https://stanfordmlgroup.github.io/competitions/mura/) | 正常/非正常 | 分类 | x-ray | 40561 |          |          |
+
+  介绍论文： [MURA: Large Dataset for Abnormality Detection in Musculoskeletal Radiographs](https://arxiv.org/abs/1712.06957)
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/20010
+)
+
+| 名称                                                         | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ------------------------------------------------------------ | -------- | ---- | ---- | ---- | -------- | -------- |
+| [RSNA Bone Age](https://www.kaggle.com/kmader/rsna-bone-age) |          |      |      |      |          |          |
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/36300
+)
+
+# 膝盖
+
+| 名称                                                         | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ------------------------------------------------------------ | -------- | ---- | ---- | ---- | -------- | -------- |
+| [MRNet](https://stanfordmlgroup.github.io/competitions/mrnet/) |          |      |      |      |          |          |
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/24584
+)
+
+# VQA
+
+| 名称                                                         | 标注内容 | 类型 | 模态 | 数量               | 标签格式 | 文件格式 |
+| ------------------------------------------------------------ | -------- | ---- | ---- | ------------------ | -------- | -------- |
+| [PathVQA](https://pathvqachallenge.grand-challenge.org/PathVQA_challenge/) |          |      | 图片 | 4998图片/32799问答 |          | 图片     |
+
+  介绍论文： [PathVQA: 30000+ Questions for Medical Visual Question Answering](https://arxiv.org/abs/2003.10286)
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/25239
+)
+
+# 前列腺
+
+| 名称                                                         | 标注内容     | 类型 | 模态     | 数量        | 标签格式 | 文件格式 |
+| ------------------------------------------------------------ | ------------ | ---- | -------- | ----------- | -------- | -------- |
+| [PANDA](https://www.kaggle.com/c/prostate-cancer-grade-assessment/overview) | 前列腺癌分级 |      | 镜检图片 | 10616张镜检 | 分类     | tiff     |
+
+[Aistudio下载](
+)
+
+| 名称                                          | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| --------------------------------------------- | -------- | ---- | ---- | ---- | -------- | -------- |
+| [MSD前列腺分割](http://medicaldecathlon.com/) |          |      |      |      |          |          |
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/23912
+)
+
+# 胰腺
+
+| 名称                                        | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| ------------------------------------------- | -------- | ---- | ---- | ---- | -------- | -------- |
+| [MSD胰腺分割](http://medicaldecathlon.com/) |          |      |      |      |          |          |
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/23914
+)
+
+# 皮肤
+
+| 名称                                                         | 标注内容       | 类型 | 模态   | 数量        | 标签格式 | 文件格式 |
+| ------------------------------------------------------------ | -------------- | ---- | ------ | ----------- | -------- | -------- |
+| [SIIM-ISIC Melanoma Classification](https://www.kaggle.com/c/siim-isic-melanoma-classification/data) | 皮肤癌病变类别 | 分类 | 皮肤镜 | 88.3K张图片 | 类别     | "dicom   |
+
+ jpeg  相关项目： TFRecord
+  介绍论文：  csv"
+
+[Aistudio下载]("目前最大的皮肤镜图像集合，用来在皮肤病变图像中之别黑色素瘤，图片以DICOM格式提供，同时包含图像元数据，有的图像也以JPEG和TFRecord格式提供，TFRecords格式的图像已被调整为统一的1024x1024)
+
+# 医学影像数据库
+
+[TCIA](https://www.cancerimagingarchive.net/):The Cancer Imaging Archive
+
+[MedPix](https://medpix.nlm.nih.gov/home) 包含超过12000名患者和59000张影像
+
+[Belarus tuberculosis portal](http://tuberculosis.by/) 包含结核病人的CT，胸透和检验数据
+
+[Grand Challenges](https://grand-challenge.org/)
+
+[LONI](https://ida.loni.usc.edu/login.jsp) 神经相关医学影像
+
+# 参考项目/列表
+
+[胸部\肺部ct数据集](https://aistudio.baidu.com/aistudio/projectdetail/431782)
+
+[adalca](https://github.com/adalca/medical-datasets)
+
+[beamandrew](https://github.com/beamandrew/medical-data)
+
+[Stanford ML Group](https://stanfordmlgroup.github.io/)
+
+[omic tools](https://omictools.com/)
+
+[各领域公开数据集](https://zhuanlan.zhihu.com/p/25138563)
+
+# 贡献者
+
+（按照首次贡献时间排序）
+
+[多语言代码生成器](https://aistudio.baidu.com/aistudio/personalcenter/thirdview/33061) wxid : linhandev
+
+[自尊心3](https://aistudio.baidu.com/aistudio/personalcenter/thirdview/218586)
+
+[底迪](https://aistudio.baidu.com/aistudio/personalcenter/thirdview/31756)
+
+Vector
+
+# Release Note
+
+2020/5/13<br>项目在Aistudio公开，包含约40个数据集
+
+2020.5.20<br>项目添加数据集计数和release note，数据集方面添加 RSNA骨龄，PathVQA，FIRE视网膜，DDSM乳腺癌等数据集
+
+2020.5.27<br>添加ISBI细胞分割，TCGA-LIHC肝脏，4D-Lung肺部数据集，围绕乳腺癌添加一系列数据集
+
+2020.6.4<br>添加MMWHS心脏分割数据集，SIIM皮肤病分类比赛数据集
+
+202.6.11<br>添加LIDC-IDIR，编写数据压缩脚本
