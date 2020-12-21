@@ -146,7 +146,7 @@ CHAOS是一个多脏器，多模态分割数据集。
 
 ![](./static/NSCLC-Radiomics.png)
 
-[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/64048)
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/63958)
 
 ## 肺结核
 
@@ -248,7 +248,7 @@ Flyai举办的一个新冠分类比赛。
 
 Chest Imaging with Clinical and Genomic Correlates Representing a Rural COVID-19 Positive Population (COVID-19-AR)
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/63553)
-[TODO]
+
 
 ### CT Images in COVID-19
 
@@ -259,7 +259,7 @@ Chest Imaging with Clinical and Genomic Correlates Representing a Rural COVID-19
 
 ## 肺结节
 
-## LIDC-IDRI
+### LIDC-IDRI
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
 | - | - | - | - | - | - | - |
@@ -269,7 +269,7 @@ Chest Imaging with Clinical and Genomic Correlates Representing a Rural COVID-19
 
 Aistudio下载 [Part1](https://aistudio.baidu.com/aistudio/datasetdetail/63957) [Part2](https://aistudio.baidu.com/aistudio/datasetdetail/64008)
 
-## LUNA16
+### LUNA16
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
 | - | - | - | - | - | - | - |
@@ -277,7 +277,7 @@ Aistudio下载 [Part1](https://aistudio.baidu.com/aistudio/datasetdetail/63957) 
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/1860)
 
-## 天池肺部结节
+### 天池肺部结节
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
 | - | - | - | - | - | - | - |
@@ -286,7 +286,7 @@ Aistudio下载 [Part1](https://aistudio.baidu.com/aistudio/datasetdetail/63957) 
 [训练集](https://aistudio.baidu.com/aistudio/datasetDetail/20000) [测试集](https://aistudio.baidu.com/aistudio/datasetdetail/10063)
 
 
-## LNDB
+### LNDB
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
 | - | - | - | - | - | - | - |
@@ -296,7 +296,7 @@ Aistudio下载 [Part1](https://aistudio.baidu.com/aistudio/datasetdetail/63957) 
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/23909)
 
-## Lung Nodule Malignancy
+### Lung Nodule Malignancy
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
 | - | - | - | - | - | - | - |
@@ -304,13 +304,21 @@ Aistudio下载 [Part1](https://aistudio.baidu.com/aistudio/datasetdetail/63957) 
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/28474)
 
-## Data Science Bowl 17
+### Data Science Bowl 17
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
 | - | - | - | - | - | - | - |
 | [Data Science Bowl 17](https://www.kaggle.com/c/data-science-bowl-2017) |          |      |      |      |          |          |
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/25423)
+
+### Lung-PET-CT-Dx
+
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| - | - | - | - | - | - | - |
+| [Lung-PET-CT-Dx](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=70224216) | 肺癌　| 目标检测 | CT | 363 | xml | dcm |
+
+![](./static/Lung-PET-CT-Dx.png)
 
 ## 气胸
 
@@ -475,6 +483,9 @@ DRIVE数据集是一个糖尿病病人眼底血管分割数据集。
 
 ODIR-5K包括5000名患者的年龄，双眼的彩色眼底照片和医生的诊断关键词。该数据集是上工医疗技术有限公司从中国不同医院/医疗中心收集的“真实”患者信息。在这些机构中，眼底图像由市场上的各种相机捕获，例如Canon，Zeiss和Kowa，因此导致各种各样的图像分辨率。病人的识别信息会被移除。注释由经过培训的人类读者进行标记，并具有质量控制管理。患者分为8个标签，包括正常（N），糖尿病（D），青光眼（G），白内障（C），AMD（A），高血压（H），近视（M）和其他疾病/异常（O）。
 
+[//]: # (TODO:搬运，添加下载链接)
+
+
 ## FIRE 视网膜图像数据
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
@@ -572,8 +583,11 @@ FIRE 是一个视网膜眼底图像数据集，包含 129张 眼底视网膜图�
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
 | - | - | - | - | - | - | - |
 | [QIN-PROSTATE-Repeatability](https://wiki.cancerimagingarchive.net/display/Public/QIN-PROSTATE-Repeatability) | 前列腺癌　|  | MRI | 15 |　　| dcm |
+
 ![](./static/QIN-Prostate-Repeatability.png)
+
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/63950)
+
 # 胰腺
 
 ## MSD胰腺分割
@@ -599,9 +613,10 @@ FIRE 是一个视网膜眼底图像数据集，包含 129张 眼底视网膜图�
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
 | - | - | - | - | - | - | - |
-| [SIIM-ISIC Melanoma Classification](https://www.kaggle.com/c/siim-isic-melanoma-classification/data) | 皮肤癌病变类别 | 分类 | 皮肤镜 | 88.3K张图片 | 类别     | "dicom   |
+| [SIIM-ISIC Melanoma Classification](https://www.kaggle.com/c/siim-isic-melanoma-classification/data) | 皮肤癌病变类别 | 分类 | 皮肤镜 | 88.3K张图片 | 类别     | dicom   |
 
 目前最大的皮肤镜图像集合，用来在皮肤病变图像中之别黑色素瘤，图片以DICOM格式提供，同时包含图像元数据，有的图像也以JPEG和TFRecord格式提供，TFRecords格式的图像已被调整为统一的1024x1024
+[//]: # (TODO: 添加这个数据集的下载)
 
 # VQA
 
