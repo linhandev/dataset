@@ -18,6 +18,8 @@
 | - | - | - | - | - | - | - |
 | [LiTS](https://competitions.codalab.org/competitions/17094) | 肝脏/肝脏肿瘤 | 分割 | CT   | 130+70 | 0/1标签  | nii |
 
+![lits](./static/lits.jpg)
+
 LiTS数据集包含130组训练数据和70组测试数据，其中70组测试数据是没有标签的。LiTS训练集中包含3DIRCADB中的所有数据，所以如果合并多个数据集不要合并这两个。
 
 分割结果可以在线提交进行评估，[在线提交方法参考](https://github.com/PatrickChrist/LITS-CHALLENGE)。 [在线提交地址](https://competitions.codalab.org/competitions/17094)
@@ -72,13 +74,17 @@ CHAOS是一个多脏器，多模态分割数据集。
 | - | - | - | - | - | - | - |
 | [TCGA-LIHC](https://wiki.cancerimagingarchive.net/display/Public/TCGA-LIHC) | 肝 |  | CT/MR/PT | 97患者/237套 | 无标签   | dcm |
 
+![tcga-lihc](./static/tcga-lihc.jpg)
+
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/37439)
 
 ## MSD肝脏血管分割
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
 | - | - | - | - | - | - | - |
-| [MSD肝脏血管分割](http://medicaldecathlon.com/) |          |      |      |      |          |          |
+| [MSD肝脏血管分割](http://medicaldecathlon.com/) | 肝脏血管 | 分割 | CT | 443 | 0/1 | nii |
+
+![hepatic-Vessels](./static/Hepatic-Vessels.png)
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/10333)
 
@@ -87,7 +93,9 @@ CHAOS是一个多脏器，多模态分割数据集。
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式  |
 | - | - | - | - | - | - | - |
-| [MSD肺脏分割](http://medicaldecathlon.com/) | 肺脏 | 分割 | CT   | 55   |  | MetaImage |
+| [MSD肺脏分割](http://medicaldecathlon.com/) | 肺脏 | 分割 | CT | 96 | 0/1 | nii |
+
+![Lung-Tumours](./static/Lung-Tumours.png)
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/10334)
 
@@ -122,16 +130,19 @@ CHAOS是一个多脏器，多模态分割数据集。
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
 | - | - | - | - | - | - | - |
-| [CheXpert](https://stanfordmlgroup.github.io/competitions/chexpert/) |          |      |      |      |          |          |
+| [CheXpert](https://stanfordmlgroup.github.io/competitions/chexpert/) |  |      |      |      |          |          |
+
+![chestxpert](./static/chest-x-pert.png)
 
 介绍论文： [CheXpert: A Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison](https://arxiv.org/abs/1901.07031)
 
+[相关项目](https://github.com/gaetandi/cheXpert)
 
 ## NIHChest Xray
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
 | - | - | - | - | - | - | - | - |
-| [NIHChest Xray](https://www.kaggle.com/nih-chest-xrays/data) |                |      |      |          |          | CC0: Public Domain | | |
+| [NIHChest Xray](https://www.kaggle.com/nih-chest-xrays/data) |  |      |      |          |  | CC0: Public Domain | | |
 
 介绍论文： [ChestX-ray8: Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases](http://openaccess.thecvf.com/content_cvpr_2017/papers/Wang_ChestX-ray8_Hospital-Scale_Chest_CVPR_2017_paper.pdf)
 
@@ -397,6 +408,27 @@ Aistudio下载 [Part1](https://aistudio.baidu.com/aistudio/datasetdetail/63957) 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/26367)
 
 # 脑
+
+## MSD脑瘤分割
+
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| - | - | - | - | - | - | - |
+| [MSD Brain Tumor Segmentation](http://medicaldecathlon.com/) | 胶质瘤/肿瘤/水肿 | 分割 | MRI | 484 Train + 266 Test | 0/1 | nii |
+
+![msd-brain](./static/msd-brain-tumor.png)
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/10277)
+
+
+## MSD海马体分割
+
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| - | - | - | - | - | - | - |
+| [MSD Hippocampus Segmentation](http://medicaldecathlon.com/) | 海马体 | 分割 | MRI | 394 | 0/1 | nii |
+
+![msd-hippocampus](./static/msd-hippocampus.png)
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/23862)
 
 ## Iseg2019
 
@@ -725,6 +757,7 @@ FIRE 是一个视网膜眼底图像数据集，包含 129张 眼底视网膜图�
 
 [//]: # (TODO: https://zhuanlan.zhihu.com/p/24634505 )
 
+[//]: # (TODO: http://medicaldecathlon.com/)
 # 贡献者
 
 （按照首次贡献时间排序）
