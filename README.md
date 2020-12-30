@@ -48,7 +48,7 @@ LiTS数据集包含130组训练数据和70组测试数据，其中70组测试数
 | - | - | - | - | - | - | - |
 | 3D-IRCADb [01](https://www.ircad.fr/research/3d-ircadb-01/) [02](https://www.ircad.fr/research/3d-ircadb-01/) | 肝脏/肝肿瘤 | 分割 | CT   | 20+2 | surface mesh | dcm      |
 
-![](./static/3Dircadb.jpg)
+![3D-IRCADB](./static/3Dircadb.jpg)
 
 3D-IRCADb是比较早的一个数据集，有两个子集，分别包含20组和2组CT片子。
 
@@ -62,7 +62,7 @@ LiTS数据集包含130组训练数据和70组测试数据，其中70组测试数
 
 CHAOS是一个多脏器，多模态分割数据集。
 
-![](./static/chaos.png)
+![CHAOS](./static/chaos.png)
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/23864)
 
@@ -159,7 +159,7 @@ CHAOS是一个多脏器，多模态分割数据集。
 | - | - | - | - | - | - | - |
 | [NSCLC-Radiomics](https://wiki.cancerimagingarchive.net/display/Public/NSCLC-Radiomics) | 非小细胞癌　| 分割　|　CT | 422 |          | dcm |
 
-![](./static/NSCLC-Radiomics.png)
+![NSCLC-Radiomics](./static/NSCLC-Radiomics.png)
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/63958)
 
@@ -343,7 +343,7 @@ Aistudio下载 [Part1](https://aistudio.baidu.com/aistudio/datasetdetail/63957) 
 | - | - | - | - | - | - | - |
 | [Lung-PET-CT-Dx](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=70224216) | 肺癌　| 目标检测 | CT | 363 | xml | dcm |
 
-![](./static/Lung-PET-CT-Dx.png)
+![Lung-PET-CT-Dx](./static/Lung-PET-CT-Dx.png)
 
 ## 气胸
 
@@ -578,16 +578,6 @@ CHAOS是一个多脏器，多模态分割数据集。
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/37482)
 
-## NSCLC-Radiomics
-
-| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
-| - | - | - | - | - | - | - |
-| [NSCLC-Radiomics](https://wiki.cancerimagingarchive.net/display/Public/NSCLC-Radiomics) | 非小细胞癌　| 分割　|　CT | 422 |          | dcm |
-
-![](./static/NSCLC-Radiomics.png)
-
-[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/63958)
-
 ## 肺结核
 
 ### Shenzhen Hospital X-ray Set
@@ -770,7 +760,7 @@ Aistudio下载 [Part1](https://aistudio.baidu.com/aistudio/datasetdetail/63957) 
 | - | - | - | - | - | - | - |
 | [Lung-PET-CT-Dx](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=70224216) | 肺癌　| 目标检测 | CT | 363 | xml | dcm |
 
-![](./static/Lung-PET-CT-Dx.png)
+![Lung-PET-CT-Dx](./static/Lung-PET-CT-Dx.png)
 
 ## 气胸
 
@@ -1032,7 +1022,7 @@ FIRE 是一个视网膜眼底图像数据集，包含 129张 眼底视网膜图�
 | - | - | - | - | - | - | - |
 | [QIN-PROSTATE-Repeatability](https://wiki.cancerimagingarchive.net/display/Public/QIN-PROSTATE-Repeatability) | 前列腺癌　|  | MRI | 15 |　　| dcm |
 
-![](./static/QIN-Prostate-Repeatability.png)
+![QIN-Prostate-Repeatability](./static/QIN-Prostate-Repeatability.png)
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/63950)
 
@@ -1051,7 +1041,7 @@ FIRE 是一个视网膜眼底图像数据集，包含 129张 眼底视网膜图�
 | - | - | - | - | - | - | - |
 | [PDMR-833975-119-R](https://wiki.cancerimagingarchive.net/display/Public/Imaging+tissue+characterization+of+a+patient+derived+xenograft+model+of+adenocarcinoma+pancreas%3A+PDMR-833975-119-R) |　胰腺癌　|      |　MRI | 20 | | dcm |
 
-![](./static/PDMR-833975-119-R.png)
+![PDMR-833975-119-R](./static/PDMR-833975-119-R.png)
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/64052)
 
