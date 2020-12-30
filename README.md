@@ -47,7 +47,9 @@ LiTS数据集包含130组训练数据和70组测试数据，其中70组测试数
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
 | - | - | - | - | - | - | - |
 | 3D-IRCADb [01](https://www.ircad.fr/research/3d-ircadb-01/) [02](https://www.ircad.fr/research/3d-ircadb-01/) | 肝脏/肝肿瘤 | 分割 | CT   | 20+2 | surface mesh | dcm      |
+
 ![](./static/3Dircadb.jpg)
+
 3D-IRCADb是比较早的一个数据集，有两个子集，分别包含20组和2组CT片子。
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/10293)
