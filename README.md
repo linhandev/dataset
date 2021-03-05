@@ -1,10 +1,9 @@
 # 医学影像数据集集锦
 # 前言
-本项目的目标是整理一个医学影像方向数据集的列表，提供每个数据集的基本信息并在其License允许的条件下提供**不限速下载**。项目按照数据集关注的器官对其进行分类。需要整理的数据集很多，我们十分期待大佬们为项目**作出贡献**。
+本项目的目标是整理一个医学影像方向数据集的列表，提供每个数据集的基本信息,并在其License允许的条件下提供**不限速下载**。项目按照数据集关注的器官对其进行分类。需要整理的数据集很多，我们十分期待大佬们为项目**作出贡献**。
 
-- 您可以通过按照模板[提交Issue](https://github.com/linhandev/dataset/issues/new?assignees=linhandev&labels=%E6%96%B0%E5%A2%9E%E6%95%B0%E6%8D%AE%E9%9B%86&template=-----.md&title=%5B%E6%96%B0%E5%A2%9E%5D+%E6%B7%BB%E5%8A%A0%E6%96%B0%E6%95%B0%E6%8D%AE%E9%9B%86%E3%80%80xx)或者[PR](https://github.com/linhandev/dataset/pulls)添加新的数据集。
-- 如果发现项目已有的内容中有任何错误（包括但不限于格式问题，网址失效，数据错误，简介信息补充等），可以通过PR进行修正。
-- 如果您想用的数据集没有出现在列表中，请按照模板[提交Issue](https://github.com/linhandev/dataset/issues/new?assignees=linhandev&labels=%E6%96%B0%E5%A2%9E%E6%95%B0%E6%8D%AE%E9%9B%86&template=-----.md&title=%5B%E6%96%B0%E5%A2%9E%5D+%E6%B7%BB%E5%8A%A0%E6%96%B0%E6%95%B0%E6%8D%AE%E9%9B%86%E3%80%80xx)，并尽量详细的描述数据集信息。我们会尽快进行下载和添加。
+- 如果您发现项目已有的内容中有任何错误（包括但不限于格式问题，网址失效，数据错误，简介信息补充等），可以通过PR进行修正。
+- 如果您想用的数据集没有出现在列表中，请按照模板[提交Issue](https://github.com/linhandev/dataset/issues/new?assignees=linhandev&labels=%E6%96%B0%E5%A2%9E%E6%95%B0%E6%8D%AE%E9%9B%86&template=-----.md&title=%5B%E6%96%B0%E5%A2%9E%5D+%E6%B7%BB%E5%8A%A0%E6%96%B0%E6%95%B0%E6%8D%AE%E9%9B%86%E3%80%80xx)，并尽量详细的描述数据集信息。我们会尽快添加并可以提供**免费代下**。
 
 当前共收录约 20 个方向的 70+ 个数据集
 
