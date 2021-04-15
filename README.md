@@ -559,13 +559,27 @@ FIRE 是一个视网膜眼底图像数据集，包含 129张 眼底视网膜图�
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
 | - | - | - | - | - | - | - | - |
-| [STARE](https://cecas.clemson.edu/~ahoover/stare/) | 眼底血管 | 分割 | 眼底照片 | 400 |  |  | 无 |
+| [STARE](https://cecas.clemson.edu/~ahoover/stare/) | 眼底血管 | 分割 | 眼底照片 | 400 | 照片 | 照片 | 无 |
 
-[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/81241)
+![stare](./static/stare.png)
 
 STructured Analysis of the Retina数据集包含400张眼底照片，作者团队对这些数据进行了多种诊断，并对部分数据的血管进行了标注
 
-![stare](./static/stare.png)
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/81241)
+
+
+## CHASE_DB1
+
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
+| - | - | - | - | - | - | - | - |
+| [CHASE_DB1](https://blogs.kingston.ac.uk/retinal/) | 眼底血管 | 分割 | 眼底照片 | 28 | png | png | 无 |
+
+![CHASE_DB1](./static/CHASE_DB1.png)
+
+Kinston大学公开的一个小规模眼底分割数据集，包含28张眼底照片及对应的分割标签。
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/81247)
+
 
 # 细胞
 
