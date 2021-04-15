@@ -545,7 +545,6 @@ ODIR-5K包括5000名患者的年龄，双眼的彩色眼底照片和医生的诊
 
 [//]: # (TODO:搬运，添加下载链接)
 
-
 ## FIRE 视网膜图像数据
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
@@ -554,8 +553,19 @@ ODIR-5K包括5000名患者的年龄，双眼的彩色眼底照片和医生的诊
 
 FIRE 是一个视网膜眼底图像数据集，包含 129张 眼底视网膜图像，由不同特征组合成 134对 图像组合。这些图像组合根据特质被划分为3类。眼底图像由 Nidek AFC-210 眼底照相机采集，分辨率为2912x2912，视觉仰角为40度。图像由 Papageorgiou Hospital 医院和Aristotle University of Thessaloniki大学共同构建，由于Thessaloniki 大学采集自39名患者。. 数据包括以下几部分内容：  1.成对的视网膜图像。 2.彩色ROI掩模（作为二值图像）。 3.特征ROI掩模（作为二值图像）。 4.每个图像对应的标注点。
 
-
 [//]: # (TODO:添加数据集链接)
+
+## STARE
+
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
+| - | - | - | - | - | - | - | - |
+| [STARE](https://cecas.clemson.edu/~ahoover/stare/) | 眼底血管 | 分割 | 眼底照片 | 400 |  |  | 无 |
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/81241)
+
+STructured Analysis of the Retina数据集包含400张眼底照片，作者团队对这些数据进行了多种诊断，并对部分数据的血管进行了标注
+
+![stare](./static/stare.png)
 
 # 细胞
 
