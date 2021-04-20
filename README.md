@@ -1,9 +1,9 @@
 # 医学影像数据集集锦
 # 前言
-本项目的目标是整理一个医学影像方向数据集的列表，提供每个数据集的基本信息,并在其License允许的条件下提供**不限速下载**。项目按照数据集关注的器官对其进行分类。需要整理的数据集很多，我们十分期待大佬们为项目**作出贡献**。
+本项目的目标是整理一个医学影像方向数据集的列表，提供每个数据集的基本信息，并对其中License允许的提供**不限速下载**。项目按照数据集关注的器官对其进行分类。需要整理的数据集很多，我们十分期待大佬们为项目**作出贡献**。
 
-- 如果您发现项目已有的内容中有任何错误（包括但不限于格式问题，网址失效，数据错误，简介信息补充等），可以通过PR进行修正。
-- 如果您想用的数据集没有出现在列表中，请按照模板[提交Issue](https://github.com/linhandev/dataset/issues/new?assignees=linhandev&labels=%E6%96%B0%E5%A2%9E%E6%95%B0%E6%8D%AE%E9%9B%86&template=-----.md&title=%5B%E6%96%B0%E5%A2%9E%5D+%E6%B7%BB%E5%8A%A0%E6%96%B0%E6%95%B0%E6%8D%AE%E9%9B%86%E3%80%80xx)，并尽量详细的描述数据集信息。我们会尽快添加并可以提供**免费代下**。
+- 如果您发现项目已有的内容中有任何错误（包括但不限于md格式问题，网址失效，数据错误，简介信息补充等），可以通过Pull/Request进行修正。
+- 如果您想用的数据集没有出现在列表中，请按照模板[提交Issue](https://github.com/linhandev/dataset/issues/new?assignees=linhandev&labels=%E6%96%B0%E5%A2%9E%E6%95%B0%E6%8D%AE%E9%9B%86&template=-----.md&title=%5B%E6%96%B0%E5%A2%9E%5D+%E6%B7%BB%E5%8A%A0%E6%96%B0%E6%95%B0%E6%8D%AE%E9%9B%86%E3%80%80xx)，并尽量详细地描述数据集信息。我们会尽快添加，若License允许可以**免费代下**。
 
 当前共收录约 20 个方向的 70+ 个数据集
 
@@ -13,13 +13,13 @@
 ## LiTS
 [//]: # (FIN)
 
-| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
 | - | - | - | - | - | - | - |
-| [LiTS](https://competitions.codalab.org/competitions/17094) | 肝脏/肝脏肿瘤 | 分割 | CT   | 130+70 | 0/1标签  | nii |
+| [LiTS](https://competitions.codalab.org/competitions/17094) | 肝脏/肝脏肿瘤 | 分割 | CT   | 130+70 | 0/1标签  | nii | CC 4.0 |
 
 ![lits](./static/lits.jpg)
 
-LiTS数据集包含130组训练数据和70组测试数据，其中70组测试数据是没有标签的。LiTS训练集中包含3DIRCADB中的所有数据，所以如果合并多个数据集不要合并这两个。
+LiTS数据集包含130组训练数据和70组测试数据，其中70组测试数据标签不公开。LiTS训练集中包含3DIRCADB中的所有数据，所以如果合并多个数据集不要合并这两个。
 
 分割结果可以在线提交进行评估，[在线提交方法参考](https://github.com/PatrickChrist/LITS-CHALLENGE)。 [在线提交地址](https://competitions.codalab.org/competitions/17094)
 
@@ -32,13 +32,13 @@ LiTS数据集包含130组训练数据和70组测试数据，其中70组测试数
 ## Sliver07
 [//]: # (FIN)
 
-| 名称 | 标注内容 | 类型 | 模态 | 数量  | 标签格式 | 文件格式  |
+| 名称 | 标注内容 | 类型 | 模态 | 数量  | 标签格式 | 文件格式  | License |
 | - | - | - | - | - | - | - |
-| [Sliver07](https://sliver07.grand-challenge.org/) | 肝脏     | 分割 | CT   | 20+10 | 0/1标签  | MetaImage |
+| [Sliver07](https://sliver07.grand-challenge.org/) | 肝脏     | 分割 | CT   | 20+10 | 0/1标签  | MetaImage | [Other](https://zenodo.org/record/2597908) |
 
 ![liver.png](https://i.loli.net/2020/11/21/iuOqFTteKUlnNVZ.png)
 
-这个数据集比较老了，现在用的也比较少，一些研究会将sliver和lits合起来，这样基本上就是所有常用的关于肝脏分割的公开数据了。mhd格式可以用 SimpleITK 读，在medseg项目中有[转换成nii的脚本](https://github.com/linhandev/medSeg/blob/master/tool/train/mhd2nii.py)
+这个数据集比较老了，现在用的也比较少，一些研究会将sliver和lits合起来，这样基本上就是所有常用的关于肝脏分割的公开数据了。mhd格式可以用 SimpleITK 读，在medseg项目中有[转换成nii的脚本](https://github.com/linhandev/medSeg/blob/main/tool/train/mhd2nii.py)
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/19906)
 
