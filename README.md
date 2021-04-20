@@ -14,8 +14,8 @@
 [//]: # (FIN)
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
-| - | - | - | - | - | - | - |
-| [LiTS](https://competitions.codalab.org/competitions/17094) | 肝脏/肝脏肿瘤 | 分割 | CT   | 130+70 | 0/1标签  | nii | CC 4.0 |
+| - | - | - | - | - | - | - | - |
+| [LiTS](https://competitions.codalab.org/competitions/17094) | 肝脏/肝脏肿瘤 | 分割 | CT   | 130+70 | 0/1标签  | nii | [CC 4.0](https://competitions.codalab.org/competitions/17094#learn_the_details-terms_and_conditions) |
 
 ![lits](./static/lits.jpg)
 
@@ -33,7 +33,7 @@ LiTS数据集包含130组训练数据和70组测试数据，其中70组测试数
 [//]: # (FIN)
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量  | 标签格式 | 文件格式  | License |
-| - | - | - | - | - | - | - |
+| - | - | - | - | - | - | - | - |
 | [Sliver07](https://sliver07.grand-challenge.org/) | 肝脏     | 分割 | CT   | 20+10 | 0/1标签  | MetaImage | [Other](https://zenodo.org/record/2597908) |
 
 ![liver.png](https://i.loli.net/2020/11/21/iuOqFTteKUlnNVZ.png)
