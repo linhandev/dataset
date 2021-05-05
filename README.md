@@ -7,6 +7,105 @@
 
 当前共收录约 20 个方向的 70+ 个数据集
 
+目录
+=================
+* [肝脏](#肝脏)
+   * [LiTS](#lits)
+   * [Sliver07](#sliver07)
+   * [3D-IRCADB](#3d-ircadb)
+   * [CHAOS](#chaos)
+   * [TCGA-LIHC](#tcga-lihc)
+   * [MSD肝脏血管分割](#msd肝脏血管分割)
+* [肺](#肺)
+   * [MSD肺脏分割](#msd肺脏分割)
+   * [LoLa11肺页分割](#lola11肺页分割)
+   * [StructSeg2019](#structseg2019)
+   * [肺部多病智能诊断](#肺部多病智能诊断)
+   * [CheXpert](#chexpert)
+   * [NIHChest Xray](#nihchest-xray)
+   * [QIN Lung CT](#qin-lung-ct)
+   * [4D-Lung](#4d-lung)
+   * [NSCLC-Radiomics](#nsclc-radiomics)
+   * [肺结核](#肺结核)
+      * [Shenzhen Hospital X-ray Set](#shenzhen-hospital-x-ray-set)
+      * [Montgomery County X-ray Set](#montgomery-county-x-ray-set)
+   * [肺炎](#肺炎)
+      * [Ieee8023](#ieee8023)
+      * [covid19-ct-scans](#covid19-ct-scans)
+      * [COVID-CT](#covid-ct)
+      * [Figure1-COVID-chestxray-dataset](#figure1-covid-chestxray-dataset)
+      * [RSNA肺炎检测](#rsna肺炎检测)
+      * [CovidX](#covidx)
+      * [Flyai Covid](#flyai-covid)
+      * [covid19-radiography-database](#covid19-radiography-database)
+      * [COVID-19-AR](#covid-19-ar)
+      * [CT Images in COVID-19](#ct-images-in-covid-19)
+   * [肺结节](#肺结节)
+      * [LIDC-IDRI](#lidc-idri)
+      * [LUNA16](#luna16)
+      * [天池肺部结节](#天池肺部结节)
+      * [LNDB](#lndb)
+      * [Lung Nodule Malignancy](#lung-nodule-malignancy)
+      * [Data Science Bowl 17](#data-science-bowl-17)
+      * [Lung-PET-CT-Dx](#lung-pet-ct-dx)
+   * [气胸](#气胸)
+      * [SIIM-ACR Pneumothorax Segmentation](#siim-acr-pneumothorax-segmentation)
+* [乳腺癌](#乳腺癌)
+   * [CBIS-DDSM](#cbis-ddsm)
+   * [QIN Breast](#qin-breast)
+   * [Rider Breast MRI](#rider-breast-mri)
+   * [ACRIN 6688](#acrin-6688)
+   * [BraTS2015](#brats2015)
+* [脑](#脑)
+   * [MSD脑瘤分割](#msd脑瘤分割)
+   * [MSD海马体分割](#msd海马体分割)
+   * [Iseg2019](#iseg2019)
+   * [ABIDE](#abide)
+   * [ADNI](#adni)
+   * [脑出血](#脑出血)
+      * [RSNA Intracranial Hemorrhage Detection](#rsna-intracranial-hemorrhage-detection)
+* [肾脏](#肾脏)
+   * [Kits19](#kits19)
+* [肠](#肠)
+   * [CT COLONOGRAPHY](#ct-colonography)
+   * [MSD肠道分割数据集](#msd肠道分割数据集)
+* [心脏](#心脏)
+   * [EchoNet](#echonet)
+   * [MMWHS](#mmwhs)
+   * [MSD心脏分割](#msd心脏分割)
+* [眼睛](#眼睛)
+   * [DRIVE](#drive)
+   * [ODIR-5k](#odir-5k)
+   * [FIRE 视网膜图像数据](#fire-视网膜图像数据)
+   * [STARE](#stare)
+   * [CHASE_DB1](#chase_db1)
+* [细胞](#细胞)
+   * [Data Science Bowl 18](#data-science-bowl-18)
+   * [血细胞涂片分类](#血细胞涂片分类)
+   * [ISBI细胞跟踪](#isbi细胞跟踪)
+* [骨骼](#骨骼)
+   * [MURA-1.1](#mura-11)
+   * [RSNA Bone Age](#rsna-bone-age)
+   * [膝盖](#膝盖)
+      * [MRNet](#mrnet)
+   * [脊椎](#脊椎)
+      * [Verse大规模脊椎分割数据集](#verse大规模脊椎分割数据集)
+* [前列腺](#前列腺)
+   * [PANDA](#panda)
+   * [MSD前列腺分割](#msd前列腺分割)
+   * [QIN-PROSTATE-Repeatability](#qin-prostate-repeatability)
+* [胰腺](#胰腺)
+   * [MSD胰腺分割](#msd胰腺分割)
+   * [PDMR-833975-119-R](#pdmr-833975-119-r)
+* [皮肤](#皮肤)
+   * [SIIM-ISIC Melanoma Classification](#siim-isic-melanoma-classification)
+* [VQA](#vqa)
+   * [PathVQA](#pathvqa)
+* [医学影像数据库](#医学影像数据库)
+* [参考项目/列表](#参考项目列表)
+* [贡献者](#贡献者)
+* [Release Note](#release-note)
+
 
 # 肝脏
 
@@ -15,11 +114,11 @@
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
 | - | - | - | - | - | - | - | - |
-| [LiTS](https://competitions.codalab.org/competitions/17094) | 肝脏/肝脏肿瘤 | 分割 | CT   | 130+70 | 0/1标签  | nii | [CC 4.0](https://competitions.codalab.org/competitions/17094#learn_the_details-terms_and_conditions) |
+| [LiTS](https://competitions.codalab.org/competitions/17094) | 肝脏/肝脏肿瘤 | 分割 | CT   | 131+70 | 0/1标签  | nii | [CC 4.0](https://competitions.codalab.org/competitions/17094#learn_the_details-terms_and_conditions) |
 
-![lits](./static/lits.jpg)
+<img src="./static/lits.jpg" width="50%"/>
 
-LiTS数据集包含130组训练数据和70组测试数据，其中70组测试数据标签不公开。LiTS训练集中包含3DIRCADB中的所有数据，所以如果合并多个数据集不要合并这两个。
+LiTS数据集包含131套训练扫描和70组测试数据，其中70组测试数据标签不公开。LiTS训练集中包含3DIRCADB中的所有数据，所以如果合并多个数据集不要合并这两个。Medical Segmentation Decathlon中肝脏分割的数据集就是LiTS。
 
 分割结果可以在线提交进行评估，[在线提交方法参考](https://github.com/PatrickChrist/LITS-CHALLENGE)。 [在线提交地址](https://competitions.codalab.org/competitions/17094)
 
@@ -36,7 +135,8 @@ LiTS数据集包含130组训练数据和70组测试数据，其中70组测试数
 | - | - | - | - | - | - | - | - |
 | [Sliver07](https://sliver07.grand-challenge.org/) | 肝脏     | 分割 | CT   | 20+10 | 0/1标签  | MetaImage | [Other](https://zenodo.org/record/2597908) |
 
-![liver.png](https://i.loli.net/2020/11/21/iuOqFTteKUlnNVZ.png)
+<img src="https://i.loli.net/2020/11/21/iuOqFTteKUlnNVZ.png" width="50%"/>
+
 
 这个数据集比较老了，现在用的也比较少，一些研究会将sliver和lits合起来，这样基本上就是所有常用的关于肝脏分割的公开数据了。mhd格式可以用 SimpleITK 读，在medseg项目中有[转换成nii的脚本](https://github.com/linhandev/medSeg/blob/main/tool/train/mhd2nii.py)
 
@@ -45,21 +145,23 @@ LiTS数据集包含130组训练数据和70组测试数据，其中70组测试数
 ## 3D-IRCADB
 [//]: # (FIN)
 
-| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
-| - | - | - | - | - | - | - |
-| 3D-IRCADb [01](https://www.ircad.fr/research/3d-ircadb-01/) [02](https://www.ircad.fr/research/3d-ircadb-01/) | 肝脏/肝肿瘤 | 分割 | CT   | 20+2 | surface mesh | dcm      |
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
+| - | - | - | - | - | - | - | - |
+| 3D-IRCADb [01](https://www.ircad.fr/research/3d-ircadb-01/) [02](https://www.ircad.fr/research/3d-ircadb-01/) | 肝脏/肝肿瘤 | 分割 | CT   | 20+2 | surface mesh | dcm | CC |
 
-![3D-IRCADB](./static/3Dircadb.jpg)
+<img src="./static/3Dircadb.jpg" width="80%"/>
+
 
 3D-IRCADb是比较早的一个数据集，有两个子集，分别包含20组和2组CT片子。
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/10293)
 
 ## CHAOS
+[//]: # (FIN)
 
-| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
-| - | - | - | - | - | - | - |
-| [CHAOS](https://chaos.grand-challenge.org/) | 肝/肾/脾 | 分割 | CT+MRI | 40CT+120MRI | 0/1标签  | dcm |
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
+| - | - | - | - | - | - | - | - |
+| [CHAOS](https://chaos.grand-challenge.org/) | 肝/肾/脾 | 分割 | CT+MRI | 40CT+120MRI | 0/1标签  | dcm | [CC 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) |
 
 CHAOS是一个多脏器，多模态分割数据集。
 
@@ -68,10 +170,11 @@ CHAOS是一个多脏器，多模态分割数据集。
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/23864)
 
 ## TCGA-LIHC
+[//]: # (FIN)
 
-| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
-| - | - | - | - | - | - | - |
-| [TCGA-LIHC](https://wiki.cancerimagingarchive.net/display/Public/TCGA-LIHC) | 肝 |  | CT/MR/PT | 97患者/237套 | 无标签   | dcm |
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
+| - | - | - | - | - | - | - | - |
+| [TCGA-LIHC](https://wiki.cancerimagingarchive.net/display/Public/TCGA-LIHC) | 肝 |  | CT/MR/PT | 97患者/237套 | 无标签   | dcm | [Other](https://wiki.cancerimagingarchive.net/display/Public/Data+Usage+Policies+and+Restrictions) |
 
 ![tcga-lihc](./static/tcga-lihc.jpg)
 
@@ -79,9 +182,9 @@ CHAOS是一个多脏器，多模态分割数据集。
 
 ## MSD肝脏血管分割
 
-| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
-| - | - | - | - | - | - | - |
-| [MSD肝脏血管分割](http://medicaldecathlon.com/) | 肝脏血管 | 分割 | CT | 443 | 0/1 | nii |
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
+| - | - | - | - | - | - | - | - |
+| [MSD肝脏血管分割](http://medicaldecathlon.com/) | 肝脏血管 | 分割 | CT | 443 | 0/1 | nii | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 
 ![hepatic-Vessels](./static/Hepatic-Vessels.png)
 
@@ -90,9 +193,9 @@ CHAOS是一个多脏器，多模态分割数据集。
 # 肺
 ## MSD肺脏分割
 
-| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式  |
-| - | - | - | - | - | - | - |
-| [MSD肺脏分割](http://medicaldecathlon.com/) | 肺脏 | 分割 | CT | 96 | 0/1 | nii |
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式  | License |
+| - | - | - | - | - | - | - | - |
+| [MSD肺脏分割](http://medicaldecathlon.com/) | 肺脏 | 分割 | CT | 96 | 0/1 | nii | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 
 ![Lung-Tumours](./static/Lung-Tumours.png)
 
@@ -100,20 +203,27 @@ CHAOS是一个多脏器，多模态分割数据集。
 
 ## LoLa11肺页分割
 
-| 名称 | 标注内容    | 类型 | 模态 | 数量 | 标签格式 | 文件格式  |
-| - | - | - | - | - | - | - |
-| [LoLa11](https://lola11.grand-challenge.org/) | 左右肺/肺页 | 分割 | CT   |      | 0/1标签  | Metaimage |
+[//]: # (FIN)
+
+| 名称 | 标注内容    | 类型 | 模态 | 数量 | 标签格式 | 文件格式  | License |
+| - | - | - | - | - | - | - | - |
+| [LoLa11](https://lola11.grand-challenge.org/) | 左右肺/肺页 | 分割 | CT   | 55 | 0/1标签  | Metaimage | [Other](https://zenodo.org/record/4708800) |
+
+![lola11](https://grand-challenge-public.s3.amazonaws.com/f/challenge/39/c4ab1b11-3338-4b99-a732-174ddc9e3b70/lola11_web.png)
 
 55组扫描的肺页分割，包含左右肺，左上，左下，右上，右中，右下肺页的标注。
 
-[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/30417)
+[zenodo下载](https://zenodo.org/record/4708800)
+
+[//]: # (30417)
 
 ## StructSeg2019
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
 | - | - | - | - | - | - | - |
-| [StructSeg2019](structseg2019.grand-challenge.org) |          |      |      |      |          |          |
+| [StructSeg2019](https://structseg2019.grand-challenge.org/) ||      |||||
 
+![structseg2019](https://grand-challenge-public.s3.amazonaws.com/b/398/banner2_XdYKwmN.jpg)
 
 
 ## 肺部多病智能诊断
@@ -122,8 +232,7 @@ CHAOS是一个多脏器，多模态分割数据集。
 | - | - | - | - | - | - | - |
 | [肺部多病智能诊断](https://tianchi.aliyun.com/competition/entrance/231724/) |          |      | CT   |      |          |          |
 
-[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/34323)
-
+[//]: # (34323)
 
 ## CheXpert
 
@@ -316,12 +425,11 @@ Aistudio下载 [Part1](https://aistudio.baidu.com/aistudio/datasetdetail/63957) 
 
 ### 天池肺部结节
 
-| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
-| - | - | - | - | - | - | - |
-| [天池肺部结节](https://tianchi.aliyun.com/competition/entrance/231601/introduction) |          |      |      |      |          |          |
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
+| - | - | - | - | - | - | - | - |
+| [天池肺部结节](https://tianchi.aliyun.com/competition/entrance/231601/introduction) |          |      |      |      |          |          | [Custom](https://tianchi.aliyun.com/competition/entrance/231601/introduction) |
 
-[训练集](https://aistudio.baidu.com/aistudio/datasetDetail/20000) [测试集](https://aistudio.baidu.com/aistudio/datasetdetail/10063)
-
+[//]: # (训练：https://aistudio.baidu.com/aistudio/datasetDetail/20000 测试 : https://aistudio.baidu.com/aistudio/datasetdetail/10063)
 
 ### LNDB
 
@@ -410,9 +518,9 @@ Aistudio下载 [Part1](https://aistudio.baidu.com/aistudio/datasetdetail/63957) 
 
 ## MSD脑瘤分割
 
-| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
-| - | - | - | - | - | - | - |
-| [MSD Brain Tumor Segmentation](http://medicaldecathlon.com/) | 胶质瘤/肿瘤/水肿 | 分割 | MRI | 484 Train + 266 Test | 0/1 | nii |
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
+| - | - | - | - | - | - | - | - |
+| [MSD Brain Tumor Segmentation](http://medicaldecathlon.com/) | 胶质瘤/肿瘤/水肿 | 分割 | MRI | 484 Train + 266 Test | 0/1 | nii | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 
 ![msd-brain](./static/msd-brain-tumor.png)
 
@@ -421,9 +529,9 @@ Aistudio下载 [Part1](https://aistudio.baidu.com/aistudio/datasetdetail/63957) 
 
 ## MSD海马体分割
 
-| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
-| - | - | - | - | - | - | - |
-| [MSD Hippocampus Segmentation](http://medicaldecathlon.com/) | 海马体 | 分割 | MRI | 394 | 0/1 | nii |
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
+| - | - | - | - | - | - | - | - |
+| [MSD Hippocampus Segmentation](http://medicaldecathlon.com/) | 海马体 | 分割 | MRI | 394 | 0/1 | nii | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 
 ![msd-hippocampus](./static/msd-hippocampus.png)
 
@@ -469,9 +577,9 @@ Aistudio下载 [Part1](https://aistudio.baidu.com/aistudio/datasetdetail/63957) 
 
 ## Kits19
 
-| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
-| - | - | - | - | - | - | - |
-| [Kits19](https://kits19.grand-challenge.org/) | 肾肿瘤   | 分割 | | | | | |
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
+| - | - | - | - | - | - | - | - |
+| [Kits19](https://kits19.grand-challenge.org/) | 肾脏/肾肿瘤 | 分割 |  | | | | |
 
 ![kits19](./static/kits19.png)
 
@@ -489,9 +597,9 @@ Aistudio下载 [Part1](https://aistudio.baidu.com/aistudio/datasetdetail/63957) 
 
 ## MSD肠道分割数据集
 
-| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
-| - | - | - | - | - | - | - |
-| [MSD肠道分割数据集](http://medicaldecathlon.com/) |          |      |      |      |          |          |
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
+| - | - | - | - | - | - | - | - |
+| [MSD肠道分割数据集](http://medicaldecathlon.com/) |          |      |      |      |          |          | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/10332)
 
@@ -501,7 +609,7 @@ Aistudio下载 [Part1](https://aistudio.baidu.com/aistudio/datasetdetail/63957) 
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
 | - | - | - | - | - | - | - |
-| [EchoNet](https://echonet.github.io/dynamic/index.html) | 心脏     | 分割 | MRI  | 10300 | 0/1      |          |
+| [EchoNet](https://echonet.github.io/dynamic/index.html) | 心脏 | 分割 | MRI  | 10300 | 0/1 | |
 
 介绍论文： [EchoNet-Dynamic: a Large New Cardiac Motion Video Data Resource for Medical Machine Learning](https://echonet.github.io/dynamic/NeuroIPS_2019_ML4H%20Workshop_Paper.pdf)
 
@@ -517,9 +625,9 @@ mmwhs是心脏分割数据集，共有8类，MRI和CT两种模态  相关项目�
 
 ## MSD心脏分割
 
-| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
-| - | - | - | - | - | - | - |
-| [MSD心脏分割](http://medicaldecathlon.com/) |          |      |      |      |          |          |
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
+| - | - | - | - | - | - | - | - |
+| [MSD心脏分割](http://medicaldecathlon.com/) |          |      |      |      |          |          | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/23911)
 
@@ -636,15 +744,28 @@ Aistudio下载 [2D+Time Datasets](https://aistudio.baidu.com/aistudio/datasetdet
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/36300)
 
-# 膝盖
+## 膝盖
 
-## MRNet
+### MRNet
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
 | - | - | - | - | - | - | - |
 | [MRNet](https://stanfordmlgroup.github.io/competitions/mrnet/) |          |      |      |      |          |          |
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/24584)
+
+## 脊椎
+
+### Verse大规模脊椎分割数据集
+
+| 名称 | 标注内容 | 类型 | 模态 | 数量  | 标签格式 | 文件格式  | License |
+| - | - | - | - | - | - | - | - |
+| [VerSe](https://github.com/anjany/verse) | 脊椎 | 分割 | | | | | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+
+<img src="./static/verse.png" width="50%"/>
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/86496)
+
 
 # 前列腺
 
@@ -655,9 +776,9 @@ Aistudio下载 [2D+Time Datasets](https://aistudio.baidu.com/aistudio/datasetdet
 
 
 ## MSD前列腺分割
-| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
-| - | - | - | - | - | - | - |
-| [MSD前列腺分割](http://medicaldecathlon.com/) |          |      |      |      |          |          |
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
+| - | - | - | - | - | - | - | - |
+| [MSD前列腺分割](http://medicaldecathlon.com/) |          |      |      |      |          |          | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/23912)
 
@@ -674,9 +795,9 @@ Aistudio下载 [2D+Time Datasets](https://aistudio.baidu.com/aistudio/datasetdet
 # 胰腺
 
 ## MSD胰腺分割
-| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
-| - | - | - | - | - | - | - |
-| [MSD胰腺分割](http://medicaldecathlon.com/) |          |      |      |      |          |          |
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
+| - | - | - | - | - | - | - | - |
+| [MSD胰腺分割](http://medicaldecathlon.com/) |          |      |      |      |          |          | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/23914)
 
@@ -730,6 +851,10 @@ Aistudio下载 [2D+Time Datasets](https://aistudio.baidu.com/aistudio/datasetdet
 
 [胸部\肺部ct数据集](https://aistudio.baidu.com/aistudio/projectdetail/431782)
 
+[医学影像分割挑战](http://medicaldecathlon.com/)
+
+[//]: # (TODO: https://github.com/Awesome-Image-Registration-Organization/awesome-image-registration#21-datasets 配准)
+
 [//]: # (TODO: )
 [adalca](https://github.com/adalca/medical-datasets)
 
@@ -780,7 +905,8 @@ Aistudio下载 [2D+Time Datasets](https://aistudio.baidu.com/aistudio/datasetdet
 
 [//]: # (TODO: https://zhuanlan.zhihu.com/p/24634505 )
 
-[//]: # (TODO: http://medicaldecathlon.com/)
+
+
 # 贡献者
 
 （按照首次贡献时间排序）
