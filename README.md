@@ -601,7 +601,7 @@ Aistudio下载 [Part1](https://aistudio.baidu.com/aistudio/datasetdetail/63957) 
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
 | - | - | - | - | - | - | - | - |
-| [MSD肠道分割数据集](http://medicaldecathlon.com/) |          |      |      |      |          |          | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| [MSD肠道分割数据集](http://medicaldecathlon.com/) | 结肠癌原发病灶 | 分割 | CT | 126训练+64测试 |  |  | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/10332)
 
