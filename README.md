@@ -633,7 +633,9 @@ mmwhs是心脏分割数据集，共有8类，MRI和CT两种模态  相关项目�
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
 | - | - | - | - | - | - | - | - |
-| [MSD心脏分割](http://medicaldecathlon.com/) |          |      |      |      |          |          | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| [MSD心脏分割](http://medicaldecathlon.com/) | 左心房 | 分割 | MRI | 20(训练)+10(测试) |  |  | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+
+![msd-Cardiac](./static/mds-cardiac.png)
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/23911)
 
@@ -789,14 +791,16 @@ Aistudio下载 [2D+Time Datasets](https://aistudio.baidu.com/aistudio/datasetdet
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
 | - | - | - | - | - | - | - |
-| [PANDA](https://www.kaggle.com/c/prostate-cancer-grade-assessment/overview) | 前列腺癌分级 |      | 镜检图片 | 10616张镜检 | 分类     | tiff     |
+| [PANDA](https://www.kaggle.com/c/prostate-cancer-grade-assessment/overview) | 前列腺癌分级 |      | 镜检图片 | 10616张镜检 | 分类     | tiff |
 
 
 ## MSD前列腺分割
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
 | - | - | - | - | - | - | - | - |
-| [MSD前列腺分割](http://medicaldecathlon.com/) |          |      |      |      |          |          | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| [MSD前列腺分割](http://medicaldecathlon.com/) | 前列腺中央腺体及外周区域 | 分割 | 多模态核磁 | 32(训练)+16(测试) | | | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+
+![msd-prostate](./static/msd-prostate.png)
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/23912)
 
@@ -893,9 +897,9 @@ Aistudio下载 [2D+Time Datasets](https://aistudio.baidu.com/aistudio/datasetdet
 
 # 参考项目/列表
 
-[胸部\肺部ct数据集](https://aistudio.baidu.com/aistudio/projectdetail/431782)
-
 [医学影像分割挑战](http://medicaldecathlon.com/)
+
+[胸部\肺部ct数据集](https://aistudio.baidu.com/aistudio/projectdetail/431782)
 
 [//]: # (TODO: https://github.com/Awesome-Image-Registration-Organization/awesome-image-registration#21-datasets 配准)
 
