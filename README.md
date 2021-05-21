@@ -475,7 +475,7 @@ Aistudio下载 [Part1](https://aistudio.baidu.com/aistudio/datasetdetail/63957) 
 | - | - | - | - | - | - | - |
 | [SIIM-ACR Pneumothorax Segmentation](https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation) |   |   |    |   |   |  |
 
-# 乳腺癌
+# 胸
 
 ## CBIS-DDSM
 
@@ -633,6 +633,16 @@ mmwhs是心脏分割数据集，共有8类，MRI和CT两种模态  相关项目�
 | [MSD心脏分割](http://medicaldecathlon.com/) |          |      |      |      |          |          | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/23911)
+
+## 主动脉
+
+### 冠状动脉分割
+
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
+| - | - | - | - | - | - | - | - |
+| [Automated Segmentation of Coronary Arteries](https://asoca.grand-challenge.org/) | 冠状动脉 | 分割 | CTA | 40+20 | |  | [Custom](https://zenodo.org/record/3819799#.YKccAUQzbIU) |
+
+[Grand Challenge下载](https://asoca.grand-challenge.org/)
 
 # 眼睛
 
