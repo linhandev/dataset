@@ -236,9 +236,9 @@ CHAOS是一个多脏器，多模态分割数据集。
 
 ## CheXpert
 
-| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
-| - | - | - | - | - | - | - |
-| [CheXpert](https://stanfordmlgroup.github.io/competitions/chexpert/) |  |      |      |      |          |          |
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
+| - | - | - | - | - | - | - | - |
+| [CheXpert](https://stanfordmlgroup.github.io/competitions/chexpert/) |  |      |      |      |          |          | [Other](https://stanfordmlgroup.github.io/competitions/chexpert/) |
 
 ![chestxpert](./static/chest-x-pert.png)
 
@@ -250,25 +250,26 @@ CHAOS是一个多脏器，多模态分割数据集。
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
 | - | - | - | - | - | - | - | - |
-| [NIHChest Xray](https://www.kaggle.com/nih-chest-xrays/data) |  |      |      |          |  | CC0: Public Domain | | |
+| [NIHChest Xray](https://www.kaggle.com/nih-chest-xrays/data) | 14种肺部疾病/部分病灶位置 | 分类/检测 | CXR | 112,120 | csv | png | [CC0: Public Domain](https://creativecommons.org/publicdomain/zero/1.0/) |
 
+![img](./static/nih-chest-xray.png)
 介绍论文： [ChestX-ray8: Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases](http://openaccess.thecvf.com/content_cvpr_2017/papers/Wang_ChestX-ray8_Hospital-Scale_Chest_CVPR_2017_paper.pdf)
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/35660)
 
 ## QIN Lung CT
 
-| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
-| - | - | - | - | - | - | - |
-| [QIN Lung CT](https://wiki.cancerimagingarchive.net/display/Public/QIN+LUNG+CT) |          |      | CT   |      |          |          |
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
+| - | - | - | - | - | - | - | - |
+| [QIN Lung CT](https://wiki.cancerimagingarchive.net/display/Public/QIN+LUNG+CT) | 非小細胞癌 |  | CT  | 47 |  | dcm | [Other](https://wiki.cancerimagingarchive.net/display/Public/Data+Usage+Policies+and+Restrictions) |
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/35205)
 
 ## 4D-Lung
 
-| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
-| - | - | - | - | - | - | - |
-| [4D-Lung](https://wiki.cancerimagingarchive.net/display/Public/4D-Lung) |          |      |      |      |          |          |
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
+| - | - | - | - | - | - | - | - |
+| [4D-Lung](https://wiki.cancerimagingarchive.net/display/Public/4D-Lung) | 非小細胞癌 |      | CT |  | 20 | dcm |[Other](https://wiki.cancerimagingarchive.net/display/Public/Data+Usage+Policies+and+Restrictions)|
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/37482)
 
