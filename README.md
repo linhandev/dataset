@@ -432,7 +432,7 @@ Aistudio下载 [Part1](https://aistudio.baidu.com/aistudio/datasetdetail/63957) 
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
 | - | - | - | - | - | - | - | - |
-| [天池肺部结节](https://tianchi.aliyun.com/competition/entrance/231601/introduction) |          |      |      |      |          |          | [Custom](https://tianchi.aliyun.com/competition/entrance/231601/introduction) |
+| [天池肺部结节](https://tianchi.aliyun.com/competition/entrance/231601/introduction) | 肺部结节| 检测 | 低剂量肺部CT | 1000(初赛) + 2000(复赛) | 位置+直径 | mhd | [Custom](https://tianchi.aliyun.com/competition/entrance/231601/introduction) |
 
 [//]: # (训练：https://aistudio.baidu.com/aistudio/datasetDetail/20000 测试 : https://aistudio.baidu.com/aistudio/datasetdetail/10063)
 
