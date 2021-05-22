@@ -102,6 +102,7 @@
 * [骨骼](#骨骼)
    * [MURA-1.1](#mura-11)
    * [RSNA Bone Age](#rsna-bone-age)
+   * [磁共振图像脊柱结构多类别三维自动分割](#磁共振图像脊柱结构多类别三维自动分割)
    * [膝盖](#膝盖)
       * [MRNet](#mrnet)
    * [脊椎](#脊椎)
@@ -124,6 +125,7 @@
 * [参考项目/列表](#参考项目列表)
 * [贡献者](#贡献者)
 * [Release Note](#release-note)
+
 
 # 肝脏
 
@@ -777,6 +779,16 @@ Aistudio下载 [2D+Time Datasets](https://aistudio.baidu.com/aistudio/datasetdet
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/36300)
 
+## 磁共振图像脊柱结构多类别三维自动分割
+
+| 名称 | 标注内容 | 类型 | 模态 | 数量  | 标签格式 | 文件格式  | License |
+| - | - | - | - | - | - | - | - |
+| [磁共振图像脊柱结构多类别三维自动分割](https://www.spinesegmentation-challenge.com/) | 椎骨和椎间盘 | 分割 | MRI T2WI | 172 | 0/1 | nii | [Custom](https://www.spinesegmentation-challenge.com/?page_id=34) |
+
+![spine-mri](./static/spine-mri.png)
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/81211)
+
 ## 膝盖
 
 ### MRNet
@@ -983,6 +995,8 @@ Aistudio下载 [2D+Time Datasets](https://aistudio.baidu.com/aistudio/datasetdet
 [ChenchenHu007](https://github.com/ChenchenHu007)
 
 [lixinhui541](https://github.com/lixinhui541)
+
+[吖吖查](https://github.com/richarddddd198)
 
 # Release Note
 2021/5/21<br>开始添加数据集图片，接受多次外部贡献，对存量数据集进行合规检查，数据集总量达到71
