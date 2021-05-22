@@ -1,3 +1,5 @@
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
 # 医学影像数据集集锦
 # 前言
 本项目的目标是整理一个医学影像方向数据集的列表，提供每个数据集的基本信息，并对其中License允许的提供**不限速下载**。项目按照数据集关注的器官对其进行分类。需要整理的数据集很多，我们十分期待大佬们为项目**作出贡献**。
@@ -7,7 +9,17 @@
 
 当前共收录约 20 个方向的 70+ 个数据集
 
-目录
+本项目采用
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa] 协议
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+
+
+# 目录
 =================
 * [前言](#前言)
 * [目录](#目录)
@@ -105,6 +117,9 @@
    * [SIIM-ISIC Melanoma Classification](#siim-isic-melanoma-classification)
 * [VQA](#vqa)
    * [PathVQA](#pathvqa)
+* [内窥镜](#内窥镜)
+   * [SARAS-MESAD](#saras-mesad)
+   * [SARAS-MESAD](#saras-mesad-1)
 * [医学影像数据库](#医学影像数据库)
 * [参考项目/列表](#参考项目列表)
 * [贡献者](#贡献者)
@@ -970,6 +985,7 @@ Aistudio下载 [2D+Time Datasets](https://aistudio.baidu.com/aistudio/datasetdet
 [lixinhui541](https://github.com/lixinhui541)
 
 # Release Note
+2021/5/21<br>开始添加数据集图片，接受多次外部贡献，对存量数据集进行合规检查，数据集总量达到71
 
 2020/11/20<br>添加Issue模板，鼓励外部贡献，数据集数量达到67
 
