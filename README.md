@@ -728,7 +728,11 @@ Kinston大学公开的一个小规模眼底分割数据集，包含28张眼底�
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
 | - | - | - | - | - | - | - | - |
+<<<<<<< HEAD
 | [IDRiD](https://idrid.grand-challenge.org) | 常见DR病灶、视盘、DR病变等级等 | 分类、检测、分割 | 眼底照片 | * | tif/csv | jpg | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+=======
+| [IDRiD](https://idrid.grand-challenge.org) | 常见DR病灶、视盘、DR病变等级等 | 分类、检测、分割 | 眼底照片 | * | tif/csv | jpg | CC BY-SA 4.0 |
+>>>>>>> 87e0fad718d35ac8e0c173ac46950bd52d8e556e
 
 Indian Diabetic Retinopathy Image Dataset (IDRiD)
 
