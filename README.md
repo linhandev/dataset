@@ -95,6 +95,7 @@
    * [FIRE 视网膜图像数据](#fire-视网膜图像数据)
    * [STARE](#stare)
    * [CHASE_DB1](#chase_db1)
+   * [IDRiD](#idrid)
 * [细胞](#细胞)
    * [Data Science Bowl 18](#data-science-bowl-18)
    * [血细胞涂片分类](#血细胞涂片分类)
@@ -722,6 +723,16 @@ STructured Analysis of the Retina数据集包含400张眼底照片，作者团�
 Kinston大学公开的一个小规模眼底分割数据集，包含28张眼底照片及对应的分割标签。
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/81247)
+
+## IDRiD
+
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
+| - | - | - | - | - | - | - | - |
+| [IDRiD](https://idrid.grand-challenge.org) | 常见DR病灶、视盘、DR病变等级等 | 分类、检测、分割 | 眼底照片 | * | tif/csv | jpg | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+
+Indian Diabetic Retinopathy Image Dataset (IDRiD)
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/91860/0)
 
 
 # 细胞
