@@ -586,6 +586,14 @@ Aistudio下载 [Part1](https://aistudio.baidu.com/aistudio/datasetdetail/63957) 
 
 介绍论文： [Alzheimer's Disease Neuroimaging Initiative (ADNI)](https://n.neurology.org/content/74/3/201.short)
 
+## CQ500
+
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
+| - | - | - | - | - | - | - | - |
+| [CQ500](http://headctstudy.qure.ai/) |  | 分割 |  | CT | 491组扫描 |  | [by-nc-sa 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
+
+介绍论文:[Development and Validation of Deep Learning Algorithms for Detection of Critical Findings in Head CT Scans](https://arxiv.org/abs/1803.05854)
+
 
 ## 脑出血
 
@@ -596,6 +604,8 @@ Aistudio下载 [Part1](https://aistudio.baidu.com/aistudio/datasetdetail/63957) 
 | [RSNA Intracranial Hemorrhage Detection](https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection) |          |      | CT   |      |          |          |
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/35741)
+
+
 
 # 肾脏
 
@@ -728,11 +738,7 @@ Kinston大学公开的一个小规模眼底分割数据集，包含28张眼底�
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
 | - | - | - | - | - | - | - | - |
-<<<<<<< HEAD
 | [IDRiD](https://idrid.grand-challenge.org) | 常见DR病灶、视盘、DR病变等级等 | 分类、检测、分割 | 眼底照片 | * | tif/csv | jpg | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
-=======
-| [IDRiD](https://idrid.grand-challenge.org) | 常见DR病灶、视盘、DR病变等级等 | 分类、检测、分割 | 眼底照片 | * | tif/csv | jpg | CC BY-SA 4.0 |
->>>>>>> 87e0fad718d35ac8e0c173ac46950bd52d8e556e
 
 Indian Diabetic Retinopathy Image Dataset (IDRiD)
 
@@ -1012,6 +1018,8 @@ Aistudio下载 [2D+Time Datasets](https://aistudio.baidu.com/aistudio/datasetdet
 [lixinhui541](https://github.com/lixinhui541)
 
 [吖吖查](https://github.com/richarddddd198)
+
+[parap1uie-s](https://github.com/parap1uie-s)
 
 # Release Note
 2021/5/21<br>开始添加数据集图片，接受多次外部贡献，对存量数据集进行合规检查，数据集总量达到71
