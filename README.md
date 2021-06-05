@@ -232,8 +232,7 @@ CHAOS是一个多脏器，多模态分割数据集。
 
 ![lola11](https://grand-challenge-public.s3.amazonaws.com/f/challenge/39/c4ab1b11-3338-4b99-a732-174ddc9e3b70/lola11_web.png)
 
-~~55组扫描的肺页分割，包含左右肺，左上，左下，右上，右中，右下肺页的标注。~~
-LoLa11 仅有55套CT数据，未发现任何公开标注信息
+LoLa11 包含55套CT数据，未发现任何公开标注信息
 
 [zenodo下载](https://zenodo.org/record/4708800)
 
