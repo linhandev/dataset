@@ -32,7 +32,7 @@
    * [MSD肝脏血管分割](#msd肝脏血管分割)
 * [肺](#肺)
    * [MSD肺脏分割](#msd肺脏分割)
-   * [LoLa11肺页分割](#lola11肺页分割)
+   * [LoLa11肺叶分割](#lola11肺叶分割)
    * [StructSeg2019](#structseg2019)
    * [肺部多病智能诊断](#肺部多病智能诊断)
    * [CheXpert](#chexpert)
@@ -222,17 +222,17 @@ CHAOS是一个多脏器，多模态分割数据集。
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/10334)
 
-## LoLa11肺页分割
+## LoLa11肺叶分割
 
 [//]: # (FIN)
 
 | 名称 | 标注内容    | 类型 | 模态 | 数量 | 标签格式 | 文件格式  | License |
 | - | - | - | - | - | - | - | - |
-| [LoLa11](https://lola11.grand-challenge.org/) | 左右肺/肺页 | 分割 | CT   | 55 | 0/1标签  | Metaimage | [Other](https://zenodo.org/record/4708800) |
+| [LoLa11](https://lola11.grand-challenge.org/) | None | 分割 | CT   | 55 | None  | Metaimage | [Other](https://zenodo.org/record/4708800) |
 
 ![lola11](https://grand-challenge-public.s3.amazonaws.com/f/challenge/39/c4ab1b11-3338-4b99-a732-174ddc9e3b70/lola11_web.png)
 
-55组扫描的肺页分割，包含左右肺，左上，左下，右上，右中，右下肺页的标注。
+LoLa11 包含55套CT数据，未发现任何公开标注信息
 
 [zenodo下载](https://zenodo.org/record/4708800)
 
