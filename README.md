@@ -31,7 +31,7 @@
    * [TCGA-LIHC](#tcga-lihc)
    * [MSD肝脏血管分割](#msd肝脏血管分割)
 * [肺](#肺)
-   * [MSD肺脏分割](#msd肺脏分割)
+   * [MSD肺癌分割](#msd肺癌分割)
    * [LoLa11肺叶分割](#lola11肺叶分割)
    * [StructSeg2019](#structseg2019)
    * [肺部多病智能诊断](#肺部多病智能诊断)
@@ -212,11 +212,11 @@ CHAOS是一个多脏器，多模态分割数据集。
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/10333)
 
 # 肺
-## MSD肺脏分割
+## MSD肺癌分割
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式  | License |
 | - | - | - | - | - | - | - | - |
-| [MSD肺脏分割](http://medicaldecathlon.com/) | 肺脏 | 分割 | CT | 96 | 0/1 | nii | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| [MSD肺癌分割](http://medicaldecathlon.com/) | 肺脏 | 分割 | CT | 96 | 0/1 | nii | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 
 ![Lung-Tumours](./static/Lung-Tumours.png)
 
