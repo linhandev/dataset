@@ -942,6 +942,10 @@ Aistudio下载 [2D+Time Datasets](https://aistudio.baidu.com/aistudio/datasetdet
 [//]: # (TODO: [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/90922)
 
 
+# QQ群
+如果您对医学影像技术感兴趣，欢迎加入医学影像技术交流群 365213556 ，与更多大佬一起交流，共同进步！
+
+![257867080](https://user-images.githubusercontent.com/29757093/139142701-aa51ade0-c930-4eec-93b6-1af22deae908.jpg)
 
 # 医学影像数据库
 
@@ -1052,3 +1056,5 @@ Aistudio下载 [2D+Time Datasets](https://aistudio.baidu.com/aistudio/datasetdet
 
 [//]: # (TODO: 做一个tcia转nii的py程序)
 [//]: # (TODO: 图片一样的大小,居中)
+
+
