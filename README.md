@@ -137,7 +137,7 @@
 | - | - | - | - | - | - | - | - |
 | [LiTS](https://competitions.codalab.org/competitions/17094) | 肝脏/肝脏肿瘤 | 分割 | CT   | 131+70 | 0/1标签  | nii | [CC 4.0](https://competitions.codalab.org/competitions/17094#learn_the_details-terms_and_conditions) |
 
-<img src="./static/lits.jpg" width="50%"/>
+<img src="https://raw.githubusercontent.com/linhandev/dataset/main/static/lits.jpg" width="50%"/>
 
 LiTS数据集包含131套训练扫描和70组测试数据，其中70组测试数据标签不公开。LiTS训练集中包含3DIRCADB中的所有数据，所以如果合并多个数据集不要合并这两个。Medical Segmentation Decathlon中肝脏分割的数据集就是LiTS。
 
@@ -170,7 +170,7 @@ LiTS数据集包含131套训练扫描和70组测试数据，其中70组测试数
 | - | - | - | - | - | - | - | - |
 | 3D-IRCADb [01](https://www.ircad.fr/research/3d-ircadb-01/) [02](https://www.ircad.fr/research/3d-ircadb-01/) | 肝脏/肝肿瘤 | 分割 | CT   | 20+2 | surface mesh | dcm | CC |
 
-<img src="./static/3Dircadb.jpg" width="80%"/>
+<img src="https://raw.githubusercontent.com/linhandev/dataset/main/static/3Dircadb.jpg" width="80%"/>
 
 
 3D-IRCADb是比较早的一个数据集，有两个子集，分别包含20组和2组CT片子。
@@ -186,7 +186,7 @@ LiTS数据集包含131套训练扫描和70组测试数据，其中70组测试数
 
 CHAOS是一个多脏器，多模态分割数据集。
 
-![CHAOS](./static/chaos.png)
+![CHAOS](https://raw.githubusercontent.com/linhandev/dataset/main/static/chaos.png)
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/23864)
 
@@ -197,7 +197,7 @@ CHAOS是一个多脏器，多模态分割数据集。
 | - | - | - | - | - | - | - | - |
 | [TCGA-LIHC](https://wiki.cancerimagingarchive.net/display/Public/TCGA-LIHC) | 肝 |  | CT/MR/PT | 97患者/237套 | 无标签   | dcm | [Other](https://wiki.cancerimagingarchive.net/display/Public/Data+Usage+Policies+and+Restrictions) |
 
-![tcga-lihc](./static/tcga-lihc.jpg)
+![tcga-lihc](https://raw.githubusercontent.com/linhandev/dataset/main/static/tcga-lihc.jpg)
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/37439)
 
@@ -207,7 +207,7 @@ CHAOS是一个多脏器，多模态分割数据集。
 | - | - | - | - | - | - | - | - |
 | [MSD肝脏血管分割](http://medicaldecathlon.com/) | 肝脏血管 | 分割 | CT | 443 | 0/1 | nii | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 
-![hepatic-Vessels](./static/Hepatic-Vessels.png)
+![hepatic-Vessels](https://raw.githubusercontent.com/linhandev/dataset/main/static/Hepatic-Vessels.png)
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/10333)
 
@@ -218,7 +218,7 @@ CHAOS是一个多脏器，多模态分割数据集。
 | - | - | - | - | - | - | - | - |
 | [MSD肺癌分割](http://medicaldecathlon.com/) | 肺脏 | 分割 | CT | 96 | 0/1 | nii | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 
-![Lung-Tumours](./static/Lung-Tumours.png)
+![Lung-Tumours](https://raw.githubusercontent.com/linhandev/dataset/main/static/Lung-Tumours.png)
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/10334)
 
@@ -261,7 +261,7 @@ LoLa11 包含55套CT数据，未发现任何公开标注信息
 | - | - | - | - | - | - | - | - |
 | [CheXpert](https://stanfordmlgroup.github.io/competitions/chexpert/) |  |      |      |      |          |          | [Other](https://stanfordmlgroup.github.io/competitions/chexpert/) |
 
-![chestxpert](./static/chest-x-pert.png)
+![chestxpert](https://raw.githubusercontent.com/linhandev/dataset/main/static/chest-x-pert.png)
 
 介绍论文： [CheXpert: A Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison](https://arxiv.org/abs/1901.07031)
 
@@ -273,7 +273,7 @@ LoLa11 包含55套CT数据，未发现任何公开标注信息
 | - | - | - | - | - | - | - | - |
 | [NIHChest Xray](https://www.kaggle.com/nih-chest-xrays/data) | 14种肺部疾病/部分病灶位置 | 分类/检测 | CXR | 112,120 | csv | png | [CC0: Public Domain](https://creativecommons.org/publicdomain/zero/1.0/) |
 
-![img](./static/nih-chest-xray.png)
+![img](https://raw.githubusercontent.com/linhandev/dataset/main/static/nih-chest-xray.png)
 介绍论文： [ChestX-ray8: Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases](http://openaccess.thecvf.com/content_cvpr_2017/papers/Wang_ChestX-ray8_Hospital-Scale_Chest_CVPR_2017_paper.pdf)
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/35660)
@@ -300,7 +300,7 @@ LoLa11 包含55套CT数据，未发现任何公开标注信息
 | - | - | - | - | - | - | - |
 | [NSCLC-Radiomics](https://wiki.cancerimagingarchive.net/display/Public/NSCLC-Radiomics) | 非小细胞癌　| 分割　|　CT | 422 |          | dcm |
 
-![NSCLC-Radiomics](./static/NSCLC-Radiomics.png)
+![NSCLC-Radiomics](https://raw.githubusercontent.com/linhandev/dataset/main/static/NSCLC-Radiomics.png)
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/63958)
 
@@ -498,7 +498,7 @@ Aistudio下载 [Part1](https://aistudio.baidu.com/aistudio/datasetdetail/63957) 
 | - | - | - | - | - | - | - |
 | [Lung-PET-CT-Dx](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=70224216) | 肺癌　| 目标检测 | CT | 363 | xml | dcm |
 
-![Lung-PET-CT-Dx](./static/Lung-PET-CT-Dx.png)
+![Lung-PET-CT-Dx](https://raw.githubusercontent.com/linhandev/dataset/main/static/Lung-PET-CT-Dx.png)
 
 ## 气胸
 
@@ -558,7 +558,7 @@ Aistudio下载 [Part1](https://aistudio.baidu.com/aistudio/datasetdetail/63957) 
 | - | - | - | - | - | - | - | - |
 | [MSD Brain Tumor Segmentation](http://medicaldecathlon.com/) | 胶质瘤/肿瘤/水肿 | 分割 | MRI | 484 Train + 266 Test | 0/1 | nii | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 
-![msd-brain](./static/msd-brain-tumor.png)
+![msd-brain](https://raw.githubusercontent.com/linhandev/dataset/main/static/msd-brain-tumor.png)
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/10277)
 
@@ -569,7 +569,7 @@ Aistudio下载 [Part1](https://aistudio.baidu.com/aistudio/datasetdetail/63957) 
 | - | - | - | - | - | - | - | - |
 | [MSD Hippocampus Segmentation](http://medicaldecathlon.com/) | 海马体 | 分割 | MRI | 394 | 0/1 | nii | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 
-![msd-hippocampus](./static/msd-hippocampus.png)
+![msd-hippocampus](https://raw.githubusercontent.com/linhandev/dataset/main/static/msd-hippocampus.png)
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/23862)
 
@@ -627,7 +627,7 @@ Aistudio下载 [Part1](https://aistudio.baidu.com/aistudio/datasetdetail/63957) 
 | - | - | - | - | - | - | - | - |
 | [Kits19](https://kits19.grand-challenge.org/) | 肾脏/肾肿瘤 | 分割 |  | | | | |
 
-![kits19](./static/kits19.png)
+![kits19](https://raw.githubusercontent.com/linhandev/dataset/main/static/kits19.png)
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/24582)
 
@@ -675,7 +675,7 @@ mmwhs是心脏分割数据集，共有8类，MRI和CT两种模态  相关项目�
 | - | - | - | - | - | - | - | - |
 | [MSD心脏分割](http://medicaldecathlon.com/) | 左心房 | 分割 | MRI | 20(训练)+10(测试) |  |  | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 
-![msd-Cardiac](./static/mds-cardiac.png)
+![msd-Cardiac](https://raw.githubusercontent.com/linhandev/dataset/main/static/mds-cardiac.png)
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/23911)
 
@@ -727,7 +727,7 @@ FIRE 是一个视网膜眼底图像数据集，包含 129张 眼底视网膜图�
 | - | - | - | - | - | - | - | - |
 | [STARE](https://cecas.clemson.edu/~ahoover/stare/) | 眼底血管 | 分割 | 眼底照片 | 400 | 照片 | 照片 | 无 |
 
-![stare](./static/stare.png)
+![stare](https://raw.githubusercontent.com/linhandev/dataset/main/static/stare.png)
 
 STructured Analysis of the Retina数据集包含400张眼底照片，作者团队对这些数据进行了多种诊断，并对部分数据的血管进行了标注
 
@@ -740,7 +740,7 @@ STructured Analysis of the Retina数据集包含400张眼底照片，作者团�
 | - | - | - | - | - | - | - | - |
 | [CHASE_DB1](https://blogs.kingston.ac.uk/retinal/) | 眼底血管 | 分割 | 眼底照片 | 28 | png | png | 无 |
 
-![CHASE_DB1](./static/CHASE_DB1.png)
+![CHASE_DB1](https://raw.githubusercontent.com/linhandev/dataset/main/static/CHASE_DB1.png)
 
 Kinston大学公开的一个小规模眼底分割数据集，包含28张眼底照片及对应的分割标签。
 
@@ -818,7 +818,7 @@ Aistudio下载 [2D+Time Datasets](https://aistudio.baidu.com/aistudio/datasetdet
 | - | - | - | - | - | - | - | - |
 | [磁共振图像脊柱结构多类别三维自动分割](https://www.spinesegmentation-challenge.com/) | 椎骨和椎间盘 | 分割 | MRI T2WI | 172 | 0/1 | nii | [Custom](https://www.spinesegmentation-challenge.com/?page_id=34) |
 
-![spine-mri](./static/spine-mri.png)
+![spine-mri](https://raw.githubusercontent.com/linhandev/dataset/main/static/spine-mri.png)
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/81211)
 
@@ -840,7 +840,7 @@ Aistudio下载 [2D+Time Datasets](https://aistudio.baidu.com/aistudio/datasetdet
 | - | - | - | - | - | - | - | - |
 | [VerSe](https://github.com/anjany/verse) | 脊椎 | 分割 | | | | | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 
-<img src="./static/verse.png" width="50%"/>
+<img src="https://raw.githubusercontent.com/linhandev/dataset/main/static/verse.png" width="50%"/>
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/86496)
 
@@ -860,7 +860,7 @@ Aistudio下载 [2D+Time Datasets](https://aistudio.baidu.com/aistudio/datasetdet
 | - | - | - | - | - | - | - | - |
 | [MSD前列腺分割](http://medicaldecathlon.com/) | 前列腺中央腺体及外周区域 | 分割 | 多模态核磁 | 32(训练)+16(测试) | | | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 
-![msd-prostate](./static/msd-prostate.png)
+![msd-prostate](https://raw.githubusercontent.com/linhandev/dataset/main/static/msd-prostate.png)
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/23912)
 
@@ -870,7 +870,7 @@ Aistudio下载 [2D+Time Datasets](https://aistudio.baidu.com/aistudio/datasetdet
 | - | - | - | - | - | - | - |
 | [QIN-PROSTATE-Repeatability](https://wiki.cancerimagingarchive.net/display/Public/QIN-PROSTATE-Repeatability) | 前列腺癌　|  | MRI | 15 |　　| dcm |
 
-![QIN-Prostate-Repeatability](./static/QIN-Prostate-Repeatability.png)
+![QIN-Prostate-Repeatability](https://raw.githubusercontent.com/linhandev/dataset/main/static/QIN-Prostate-Repeatability.png)
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/63950)
 
@@ -890,7 +890,7 @@ Aistudio下载 [2D+Time Datasets](https://aistudio.baidu.com/aistudio/datasetdet
 | - | - | - | - | - | - | - |
 | [PDMR-833975-119-R](https://wiki.cancerimagingarchive.net/display/Public/Imaging+tissue+characterization+of+a+patient+derived+xenograft+model+of+adenocarcinoma+pancreas%3A+PDMR-833975-119-R) |　胰腺癌　|      |　MRI | 20 | | dcm |
 
-![PDMR-833975-119-R](./static/PDMR-833975-119-R.png)
+![PDMR-833975-119-R](https://raw.githubusercontent.com/linhandev/dataset/main/static/PDMR-833975-119-R.png)
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/64052)
 
@@ -926,7 +926,7 @@ Aistudio下载 [2D+Time Datasets](https://aistudio.baidu.com/aistudio/datasetdet
 | - | - | - | - | - | - | - | - |
 | [SARAS-MESAD](https://saras-mesad.grand-challenge.org/) | 24种动作 | 静态背景动作识别 | 内窥镜 | 4(真实手术)+5(模拟手术) |  |     | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
 
-![saras-mesad](./static/saras-mesad.png)
+![saras-mesad](https://raw.githubusercontent.com/linhandev/dataset/main/static/saras-mesad.png)
 
 [//]: # (TODO: [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/90922)
 
@@ -937,7 +937,7 @@ Aistudio下载 [2D+Time Datasets](https://aistudio.baidu.com/aistudio/datasetdet
 | - | - | - | - | - | - | - | - |
 | [SARAS-ESAD](https://saras-esad.grand-challenge.org/) | 21种手术动作 | 静态背景动作识别 | 内窥镜 |  22,601(训练)+4,574(测试) | 图片 | BB | [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/3.0/) |
 
-![SARAS-ESAD](./static/SARAS-ESAD.png)
+![SARAS-ESAD](https://raw.githubusercontent.com/linhandev/dataset/main/static/SARAS-ESAD.png)
 
 [//]: # (TODO: [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/90922)
 
@@ -1056,5 +1056,3 @@ Aistudio下载 [2D+Time Datasets](https://aistudio.baidu.com/aistudio/datasetdet
 
 [//]: # (TODO: 做一个tcia转nii的py程序)
 [//]: # (TODO: 图片一样的大小,居中)
-
-
