@@ -772,6 +772,68 @@ Indian Diabetic Retinopathy Image Dataset (IDRiD)
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/91860/0)
 
 
+
+# 前列腺
+
+## PANDA
+
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| - | - | - | - | - | - | - |
+| [PANDA](https://www.kaggle.com/c/prostate-cancer-grade-assessment/overview) | 前列腺癌分级 |      | 镜检图片 | 10616张镜检 | 分类     | tiff |
+
+
+## MSD前列腺分割
+
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
+| - | - | - | - | - | - | - | - |
+| [MSD前列腺分割](http://medicaldecathlon.com/) | 前列腺中央腺体及外周区域 | 分割 | 多模态核磁 | 32(训练)+16(测试) | | | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+
+![msd-prostate](https://raw.githubusercontent.com/linhandev/dataset/main/static/msd-prostate.png)
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/23912)
+
+## QIN-PROSTATE-Repeatability
+
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| - | - | - | - | - | - | - |
+| [QIN-PROSTATE-Repeatability](https://wiki.cancerimagingarchive.net/display/Public/QIN-PROSTATE-Repeatability) | 前列腺癌　|  | MRI | 15 |　　| dcm |
+
+![QIN-Prostate-Repeatability](https://raw.githubusercontent.com/linhandev/dataset/main/static/QIN-Prostate-Repeatability.png)
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/63950)
+
+# 胰腺
+
+## MSD胰腺分割
+
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
+| - | - | - | - | - | - | - | - |
+| [MSD胰腺分割](http://medicaldecathlon.com/) | 胰腺肿瘤 | 分割 | CT | 282(训练)+139(验证) | 0/1 | nii | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/23914)
+
+## PDMR-833975-119-R
+
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| - | - | - | - | - | - | - |
+| [PDMR-833975-119-R](https://wiki.cancerimagingarchive.net/display/Public/Imaging+tissue+characterization+of+a+patient+derived+xenograft+model+of+adenocarcinoma+pancreas%3A+PDMR-833975-119-R) |　胰腺癌　|      |　MRI | 20 | | dcm |
+
+![PDMR-833975-119-R](https://raw.githubusercontent.com/linhandev/dataset/main/static/PDMR-833975-119-R.png)
+
+[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/64052)
+
+# 皮肤
+
+## SIIM-ISIC Melanoma Classification
+
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| - | - | - | - | - | - | - |
+| [SIIM-ISIC Melanoma Classification](https://www.kaggle.com/c/siim-isic-melanoma-classification/data) | 皮肤癌病变类别 | 分类 | 皮肤镜 | 88.3K张图片 | 类别     | dicom   |
+
+目前最大的皮肤镜图像集合，用来在皮肤病变图像中之别黑色素瘤，图片以DICOM格式提供，同时包含图像元数据，有的图像也以JPEG和TFRecord格式提供，TFRecords格式的图像已被调整为统一的1024x1024
+
+[//]: # (TODO: 添加这个数据集的下载)
+
 # 细胞
 
 ## Data Science Bowl 18
@@ -860,67 +922,6 @@ Aistudio下载 [2D+Time Datasets](https://aistudio.baidu.com/aistudio/datasetdet
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/86496)
 
 
-# 前列腺
-
-## PANDA
-
-| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
-| - | - | - | - | - | - | - |
-| [PANDA](https://www.kaggle.com/c/prostate-cancer-grade-assessment/overview) | 前列腺癌分级 |      | 镜检图片 | 10616张镜检 | 分类     | tiff |
-
-
-## MSD前列腺分割
-
-| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
-| - | - | - | - | - | - | - | - |
-| [MSD前列腺分割](http://medicaldecathlon.com/) | 前列腺中央腺体及外周区域 | 分割 | 多模态核磁 | 32(训练)+16(测试) | | | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
-
-![msd-prostate](https://raw.githubusercontent.com/linhandev/dataset/main/static/msd-prostate.png)
-
-[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/23912)
-
-## QIN-PROSTATE-Repeatability
-
-| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
-| - | - | - | - | - | - | - |
-| [QIN-PROSTATE-Repeatability](https://wiki.cancerimagingarchive.net/display/Public/QIN-PROSTATE-Repeatability) | 前列腺癌　|  | MRI | 15 |　　| dcm |
-
-![QIN-Prostate-Repeatability](https://raw.githubusercontent.com/linhandev/dataset/main/static/QIN-Prostate-Repeatability.png)
-
-[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/63950)
-
-# 胰腺
-
-## MSD胰腺分割
-
-| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
-| - | - | - | - | - | - | - | - |
-| [MSD胰腺分割](http://medicaldecathlon.com/) | 胰腺肿瘤 | 分割 | CT | 282(训练)+139(验证) | 0/1 | nii | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
-
-[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/23914)
-
-## PDMR-833975-119-R
-
-| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
-| - | - | - | - | - | - | - |
-| [PDMR-833975-119-R](https://wiki.cancerimagingarchive.net/display/Public/Imaging+tissue+characterization+of+a+patient+derived+xenograft+model+of+adenocarcinoma+pancreas%3A+PDMR-833975-119-R) |　胰腺癌　|      |　MRI | 20 | | dcm |
-
-![PDMR-833975-119-R](https://raw.githubusercontent.com/linhandev/dataset/main/static/PDMR-833975-119-R.png)
-
-[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/64052)
-
-# 皮肤
-
-## SIIM-ISIC Melanoma Classification
-
-| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
-| - | - | - | - | - | - | - |
-| [SIIM-ISIC Melanoma Classification](https://www.kaggle.com/c/siim-isic-melanoma-classification/data) | 皮肤癌病变类别 | 分类 | 皮肤镜 | 88.3K张图片 | 类别     | dicom   |
-
-目前最大的皮肤镜图像集合，用来在皮肤病变图像中之别黑色素瘤，图片以DICOM格式提供，同时包含图像元数据，有的图像也以JPEG和TFRecord格式提供，TFRecords格式的图像已被调整为统一的1024x1024
-
-[//]: # (TODO: 添加这个数据集的下载)
-
 # VQA
 
 ## PathVQA
@@ -956,8 +957,20 @@ Aistudio下载 [2D+Time Datasets](https://aistudio.baidu.com/aistudio/datasetdet
 
 [//]: # (TODO: [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/90922)
 
+# 数字病理
 
-# QQ群
+## CAMELYON
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
+| - | - | - | - | - | - | - | - |
+| [CAMELYON16，17](https://camelyon17.grand-challenge.org/) |  | | 镜检 |  | 图片 | BB | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) |
+
+![CAMELYON17](https://grand-challenge-public-prod.s3.amazonaws.com/b/80/camelyon17_header.x15.jpeg)
+
+[//]: # (TODO: Aistudio下载)
+
+
+
+# 交流群
 如果您对医学影像技术感兴趣，欢迎加入医学影像技术交流群 365213556 ，与更多大佬一起交流，共同进步！
 
 ![257867080](https://user-images.githubusercontent.com/29757093/139142701-aa51ade0-c930-4eec-93b6-1af22deae908.jpg)
@@ -1051,6 +1064,8 @@ Aistudio下载 [2D+Time Datasets](https://aistudio.baidu.com/aistudio/datasetdet
 [吖吖查](https://github.com/richarddddd198)
 
 [parap1uie-s](https://github.com/parap1uie-s)
+
+[Jianpeng Zhao](https://zjpzhao.github.io/)
 
 # Release Note
 2021/5/21<br>开始添加数据集图片，接受多次外部贡献，对存量数据集进行合规检查，数据集总量达到71
