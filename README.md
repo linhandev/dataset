@@ -1,5 +1,3 @@
-<!-- [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa] -->
-
 # 医学影像数据集集锦
 # 前言
 本项目的目标是整理一个医学影像方向数据集的列表，提供每个数据集的基本信息，并对其中License允许的提供**不限速下载**。项目按照数据集关注的器官对其进行分类。需要整理的数据集很多，我们十分期待大佬们为项目**作出贡献**。
@@ -9,12 +7,7 @@
 
 当前共收录约 20 个方向的 70+ 个数据集
 
-
-<!-- [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
-
-[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
-[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
-[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg -->
+转载请联系项目维护者:me@linhan.email
 
 
 # 目录
