@@ -1,5 +1,3 @@
-<!-- [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa] -->
-
 # 医学影像数据集集锦
 # 前言
 本项目的目标是整理一个医学影像方向数据集的列表，提供每个数据集的基本信息，并对其中License允许的提供**不限速下载**。项目按照数据集关注的器官对其进行分类。需要整理的数据集很多，我们十分期待大佬们为项目**作出贡献**。
@@ -9,12 +7,7 @@
 
 当前共收录约 20 个方向的 70+ 个数据集
 
-
-<!-- [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
-
-[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
-[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
-[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg -->
+转载请联系项目维护者:me@linhan.email
 
 
 # 目录
@@ -942,7 +935,7 @@ Aistudio下载 [2D+Time Datasets](https://aistudio.baidu.com/aistudio/datasetdet
 
 ![saras-mesad](https://raw.githubusercontent.com/linhandev/dataset/main/static/saras-mesad.png)
 
-[//]: # (TODO: [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/90922)
+[//]: # (TODO: https://aistudio.baidu.com/aistudio/datasetdetail/90922)
 
 
 ## SARAS-MESAD
@@ -953,7 +946,7 @@ Aistudio下载 [2D+Time Datasets](https://aistudio.baidu.com/aistudio/datasetdet
 
 ![SARAS-ESAD](https://raw.githubusercontent.com/linhandev/dataset/main/static/SARAS-ESAD.png)
 
-[//]: # (TODO: [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/90922)
+[//]: # (TODO: https://aistudio.baidu.com/aistudio/datasetdetail/90922)
 
 # 数字病理
 
@@ -984,6 +977,8 @@ Aistudio下载 [2D+Time Datasets](https://aistudio.baidu.com/aistudio/datasetdet
 [Grand Challenges](https://grand-challenge.org/)
 
 [LONI](https://ida.loni.usc.edu/login.jsp) 神经相关医学影像
+
+[TUH EEG](https://isip.piconepress.com/projects/tuh_eeg/html/downloads.shtml) Temple大学脑电波公开数据库，包含超过4T数据
 
 # 参考项目/列表
 
@@ -1042,6 +1037,9 @@ Aistudio下载 [2D+Time Datasets](https://aistudio.baidu.com/aistudio/datasetdet
 [aimi](https://aimi.stanford.edu/research/public-datasets)
 
 [//]: # (TODO: https://zhuanlan.zhihu.com/p/24634505 )
+
+
+[//]: # (TODO: https://isip.piconepress.com/projects/tuh_eeg/html/downloads.shtml)
 
 
 
