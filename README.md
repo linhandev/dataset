@@ -431,11 +431,16 @@ Chest Imaging with Clinical and Genomic Correlates Representing a Rural COVID-19
 
 ### CT Images in COVID-19
 
-| 名称 | 标注内容 | 类型 | 模态 | 数量  | 标签格式 | 文件格式 |
-| - | - | - | - | - | - | - |
-| [CT Images in COVID-19](https://wiki.cancerimagingarchive.net/display/Public/CT+Images+in+COVID-19) | 无标签 | 分类/分割 | CT   | 650 | 无 | nii|
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| --- | --- | --- | --- | --- | --- | --- |
+| [CT Images in COVID-19](https://wiki.cancerimagingarchive.net/display/Public/CT+Images+in+COVID-19) | 无标签 | 分类/分割 | CT 平扫 | 771 | 无 | nii |
+
+<img src="https://raw.githubusercontent.com/linhandev/dataset/main/static/ct-images-in-covid19.png" width="50%"/>
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/63794)
+相关论文：
+- [Artificial intelligence for the detection of COVID-19 pneumonia on chest CT using multinational datasets](https://www.nature.com/articles/s41467-020-17971-2)
+- [Generalized chest CT and lab curves throughout the course of COVID-19](https://www.nature.com/articles/s41598-021-85694-5)
 
 ## 肺结节
 
