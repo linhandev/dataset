@@ -1,8 +1,8 @@
 # 医学影像数据集集锦
 # 前言
-本项目的目标是整理一个医学影像方向数据集的列表，提供每个数据集的基本信息，并在License允许的情况下提供**不限速下载**。如果您想使用的数据集不在列表中我们可以**免费代下**。项目按照数据集模态或关注的器官分类。当前共收录约 20 个方向的 80+ 个数据集
+本项目的目标是整理一个医学影像方向数据集的列表，提供每个数据集的基本信息，并在License允许的前提下提供**不限速下载**。如果您想使用的数据集不在列表中我们可以提供**免费代下**。项目按照数据集模态或关注的器官分类。当前共收录约 20 个方向的 80+ 个数据集
 
-医学影像数据集数量多且专业性强，众人拾柴火焰高！如果您使用过列表中没有的数据集，或发现列表中的信息有任何疏漏，我们非常希望您可以[参与项目建设](https://github.com/linhandev/dataset/blob/main/contribute.md)。
+医学影像数据集众多多且专业性强，众人拾柴火焰高！如果您使用过列表中没有的数据集，或发现列表中的信息有任何疏漏，我们非常希望您可以[参与项目建设](https://github.com/linhandev/dataset/blob/main/contribute.md)。
 
 联系维护者:me@linhan.email 微信 linhandev
 
@@ -123,6 +123,7 @@
 * [参考项目/列表](#参考项目列表)
 * [贡献者](#贡献者)
 * [Release Note](#release-note)
+
 # 肝脏
 
 ## LiTS
@@ -130,11 +131,11 @@
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
 | - | - | - | - | - | - | - | - |
-| [LiTS](https://competitions.codalab.org/competitions/17094) | 肝脏/肝脏肿瘤 | 分割 | CT   | 131+70 | 0/1标签  | nii | [CC 4.0](https://competitions.codalab.org/competitions/17094#learn_the_details-terms_and_conditions) |
+| [LiTS](https://competitions.codalab.org/competitions/17094) | 肝脏/肝脏肿瘤 | 分割 | CT   | 131+70 | 0/1标签  | nii | [CC BY-NC-ND 4.0](https://competitions.codalab.org/competitions/17094#learn_the_details-terms_and_conditions) |
 
 <img src="https://raw.githubusercontent.com/linhandev/dataset/main/static/lits.jpg" width="50%"/>
 
-LiTS数据集包含131套训练扫描和70组测试数据，其中70组测试数据标签不公开。LiTS训练集中包含3DIRCADB中的所有数据，所以如果合并多个数据集不要合并这两个。Medical Segmentation Decathlon中肝脏分割的数据集就是LiTS。
+LiTS数据集包含131组训练扫描和70组测试扫描，其中70组测试数据标签不公开。LiTS训练集中包含[3DIRCADB](#3d-ircadb)中的所有数据，所以不要合并这两个数据集。Medical Segmentation Decathlon中肝脏分割的数据集就是LiTS。
 
 分割结果可以在线提交进行评估，[在线提交方法参考](https://github.com/PatrickChrist/LITS-CHALLENGE)。 [在线提交地址](https://competitions.codalab.org/competitions/17094)
 
