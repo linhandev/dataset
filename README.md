@@ -381,13 +381,13 @@ DarwinAI收集的一些新冠CT的图片，是CovidX数据集的一部分。持�
 
 ### RSNA肺炎检测
 
-| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
-| - | - | - | - | - | - | - |
-| [RSNA肺炎检测](https://www.kaggle.com/c/rsna-pneumonia-detection-challenge/) | 之否肺炎/肺炎区域BB | 分类/检测 | CXR  | 26684+3000 |          | 图片     |
+|                                     名称                                     |      标注内容       |   类型    | 模态 |    数量    | 标签格式 | 文件格式 |                                   License                                   |
+| ---------------------------------------------------------------------------- | ------------------- | --------- | ---- | ---------- | -------- | -------- | --------------------------------------------------------------------------- |
+| [RSNA肺炎检测](https://www.kaggle.com/c/rsna-pneumonia-detection-challenge/) | 是否肺炎 肺炎区域BB | 分类 检测 | CXR  | 26684+3000 |          |   图片   | [Custom](https://www.kaggle.com/c/rsna-pneumonia-detection-challenge/rules) |
 
-RSNA是北美放射学会在Kaggle上组织的一个比赛数据集，数据来自[NIH](https://nihcc.app.box.com/v/ChestXray-NIHCC)。包含26684张训练数据，有图片的分类和肺炎区域的边界框。
+北美放射学会在Kaggle上组织的一个比赛数据集，数据来自[NIH](https://nihcc.app.box.com/v/ChestXray-NIHCC)。包含26684张训练数据，有图片的分类和肺炎区域的边界框。
 
-[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/34214)
+[//]: # (https://aistudio.baidu.com/aistudio/datasetdetail/34214)
 
 ### CovidX
 
@@ -630,9 +630,9 @@ Aistudio下载 [Part1](https://aistudio.baidu.com/aistudio/datasetdetail/63957) 
 | - | - | - | - | - | - | - |
 | [RSNA Intracranial Hemorrhage Detection](https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection) |          |      | CT   |      |          |          |
 
-[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/35741)
-
-
+[//]: # (https://aistudio.baidu.com/aistudio/datasetdetail/35741)
+[//]: # (TODO:链接)
+[//]: # (TODO:完善内容)
 
 # 肾脏
 
