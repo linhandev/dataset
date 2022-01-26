@@ -548,6 +548,8 @@ Aistudio下载 [Part1](https://aistudio.baidu.com/aistudio/datasetdetail/63957) 
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/37565)
 
+# 脑
+
 ## BraTS2013
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
@@ -569,9 +571,6 @@ Aistudio下载 [Part1](https://aistudio.baidu.com/aistudio/datasetdetail/63957) 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
 | - | - | - | - | - | - | - |
 | [BraTS2015](http://www.braintumorsegmentation.org/) |          |      |      |      |          |          |
-
-
-# 脑
 
 ## MSD脑瘤分割
 
