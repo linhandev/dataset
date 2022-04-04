@@ -172,7 +172,7 @@ LiTS数据集包含131组训练扫描和70组测试扫描，其中70组测试数
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
 | - | - | - | - | - | - | - | - |
-| 3D-IRCADb [01](https://www.ircad.fr/research/3d-ircadb-01/) [02](https://www.ircad.fr/research/3d-ircadb-01/) | 肝脏/肝肿瘤 | 分割 | CT   | 20+2 | surface mesh | dcm | CC |
+| 3D-IRCADb [01](https://www.ircad.fr/research/data-sets/liver-segmentation-3d-ircadb-01/) [02](https://www.ircad.fr/research/data-sets/respiratory-cycle-3d-ircadb-02/) | 肝脏/肝肿瘤 | 分割 | CT   | 20+2 | surface mesh | dcm | CC |
 
 <img src="https://raw.githubusercontent.com/linhandev/dataset/main/static/3Dircadb.jpg" width="80%"/>
 
