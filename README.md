@@ -686,11 +686,11 @@ Aistudio下载 [Part1](https://aistudio.baidu.com/aistudio/datasetdetail/63957) 
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
 | - | - | - | - | - | - | - |
-| [MMWHS](https://zmiclab.github.io/projects/mmwhs/) | 心脏     | 分割 | CT / MRI | 20CT、20MRI | 类别     | nii      |
+| [MMWHS](https://zmiclab.github.io/zxh/0/mmwhs/) | 心脏     | 分割 | CT / MRI | 20CT、20MRI | 类别     | nii      |
 
 mmwhs是心脏分割数据集，共有8类，MRI和CT两种模态  相关项目： [Hybrid Loss Guided Convolutional Networks for Whole Heart Parsing](https://github.com/xy0806/miccai17-mmwhs-hybrid)
 
-[Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/38799)
+<!-- [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/38799) -->
 
 ## MSD心脏分割
 
