@@ -123,6 +123,8 @@
    * [CAMELYON](#camelyon)
 * [心电图](#心电图)
    * [CAMELYON](#camelyon-1)
+* [胎儿超声](#胎儿超声)
+   * [HC18](#HC18)   
 * [交流群](#交流群)
 * [医学影像数据库](#医学影像数据库)
 * [参考项目/列表](#参考项目列表)
@@ -997,7 +999,15 @@ Early Breast Cancer Core-Needle Biopsy WSI (BCNB) Dataset，早期乳腺癌患�
 
 [//]: # (TODO: Aistudio下载)
 
+# 胎儿超声
+## CAMELYON
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
+| - | - | - | - | - | - | - | - |
+| [HC18](https://hc18.grand-challenge.org/) | 胎儿头围 | 分割 | 超声图 | 训练数 999 | 头围长度和头围（椭圆） | png | Creative Commons Attribution 4.0 International |
 
+![uspng](https://isip.piconepress.com/images/bootstrap/tuh_eeg/prod/tuh_eeg_signal_long.jpg)
+
+[//]: # (TODO: Aistudio下载)
 
 # 交流群
 如果您对医学影像技术感兴趣，欢迎加入医学影像技术交流群 365213556 ，与更多大佬一起交流，共同进步！
