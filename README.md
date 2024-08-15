@@ -1,19 +1,13 @@
-中文 | [English](https://github.com/linhandev/dataset/blob/main/README_en.md)
-# 医学影像数据集集锦
-# 前言
-本项目的目标是整理一个医学影像方向数据集的列表，提供每个数据集的基本信息，并在License允许的前提下提供**不限速下载**。如果您想使用的数据集不在列表中我们可以提供**免费代下**。项目按照数据集模态或关注的器官分类。当前共收录约 20 个方向的 80+ 个数据集
+This repo is forked from [https://github.com/linhandev/dataset](https://github.com/linhandev/dataset). It has not been updated for two years. Here I add some more datasets.
+# Public Medical imaging dataset collection
+# Preface
 
-医学影像数据集众多多且专业性强，众人拾柴火焰高！如果您使用过列表中没有的数据集，或发现列表中的信息有任何疏漏，我们非常希望您可以[参与项目建设](https://github.com/linhandev/dataset/blob/main/contribute.md)。
+Medical imaging datasets are numerous and professional, and everyone can contribute! If you have used a dataset that is not on the list or found any omissions in the list, we very much hope that you can contribute to the project.
 
-联系维护者:me@linhan.email 微信 linhandev
-
-# 目录
-=================
-
-* [医学影像数据集集锦](#医学影像数据集集锦)
-* [前言](#前言)
-* [目录](#目录)
-* [肝脏](#肝脏)
+# Table of Content
+* [Abdomen](#abdomen)
+   * [BTCV](BTCV)
+* [Liver](#liver)
    * [LiTS](#lits)
    * [Sliver07](#sliver07)
    * [3D-IRCADB](#3d-ircadb)
@@ -123,16 +117,18 @@
    * [CAMELYON](#camelyon)
 * [心电图](#心电图)
    * [CAMELYON](#camelyon-1)
-* [交流群](#交流群)
+* [Ultrasound](#ultrasound-imaging)
+   * [HC18 Fetal head](#fetal-head)
 * [医学影像数据库](#医学影像数据库)
 * [参考项目/列表](#参考项目列表)
-* [贡献者](#贡献者)
-* [Release Note](#release-note)
-
-[![Star History Chart](https://api.star-history.com/svg?repos=linhandev/dataset&type=Date)](https://star-history.com/#linhandev/dataset&Date)
 
 
-# 肝脏
+# Abdomen
+
+## BTCV
+todo
+
+# Liver
 
 ## LiTS
 [//]: # (FIN)
@@ -997,12 +993,16 @@ Early Breast Cancer Core-Needle Biopsy WSI (BCNB) Dataset，早期乳腺癌患�
 
 [//]: # (TODO: Aistudio下载)
 
+# Ultrasound Imaging
+
+## Fetal head
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
+| - | - | - | - | - | - | - | - |
+| [HC18](https://hc18.grand-challenge.org/) | 胎儿头围 | 分割 | 超声图 | 训练集 999 | 胎儿头围数值，胎儿头围形状（椭圆） | png | Creative Commons Attribution 4.0 International|
+
+![HC18](static/hc18.jpeg)
 
 
-# 交流群
-如果您对医学影像技术感兴趣，欢迎加入医学影像技术交流群 365213556 ，与更多大佬一起交流，共同进步！
-
-![257867080](https://user-images.githubusercontent.com/29757093/139142701-aa51ade0-c930-4eec-93b6-1af22deae908.jpg)
 
 # 医学影像数据库
 
@@ -1081,44 +1081,4 @@ Early Breast Cancer Core-Needle Biopsy WSI (BCNB) Dataset，早期乳腺癌患�
 
 
 
-# 贡献者
 
-（按照首次贡献时间排序）
-
-[多语言代码生成器](https://aistudio.baidu.com/aistudio/personalcenter/thirdview/33061) Mail : linhandev@qq.com
-
-[自尊心3](https://aistudio.baidu.com/aistudio/personalcenter/thirdview/218586)
-
-[底迪](https://aistudio.baidu.com/aistudio/personalcenter/thirdview/31756)
-
-[ChenchenHu007](https://github.com/ChenchenHu007)
-
-[lixinhui541](https://github.com/lixinhui541)
-
-[吖吖查](https://github.com/richarddddd198)
-
-[parap1uie-s](https://github.com/parap1uie-s)
-
-[Jianpeng Zhao](https://zjpzhao.github.io/)
-
-[Amandalala](https://github.com/Amandalala)
-
-# Release Note
-2021/5/21<br>开始添加数据集图片，接受多次外部贡献，对存量数据集进行合规检查，数据集总量达到71
-
-2020/11/20<br>添加Issue模板，鼓励外部贡献，数据集数量达到67
-
-2020/11/8<br>在Github发布，整理格式，添加多个数据集
-
-2020/6/11<br>添加LIDC-IDIR，编写数据压缩脚本
-
-2020/6/4<br>添加MMWHS心脏分割数据集，SIIM皮肤病分类比赛数据集
-
-2020/5/27<br>添加ISBI细胞分割，TCGA-LIHC肝脏，4D-Lung肺部数据集，围绕乳腺癌添加一系列数据集
-
-2020/5/20<br>项目添加数据集计数和release note，数据集方面添加 RSNA骨龄，PathVQA，FIRE视网膜，DDSM乳腺癌等数据集
-
-2020/5/13<br>项目在Aistudio公开，包含约40个数据集
-
-[//]: # (TODO: 做一个tcia转nii的py程序)
-[//]: # (TODO: 图片一样的大小,居中)
